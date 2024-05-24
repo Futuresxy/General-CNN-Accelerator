@@ -1,0 +1,521 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Apr 15 15:54:54 2024
+# Process ID: 11920
+# Current directory: E:/Accelerator/Accelerator_100M
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10160 E:\Accelerator\Accelerator_100M\Accelerator.xpr
+# Log file: E:/Accelerator/Accelerator_100M/vivado.log
+# Journal file: E:/Accelerator/Accelerator_100M\vivado.jou
+# Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Accelerator/Accelerator_100M/Accelerator.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'E:/Accelerator/Accelerator_time' since last save.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/Accelerator_Control_1.0'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/ip_package_rtl/CNN_Control'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/IP_design/CNN_Control/CNN_Control_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/IP_design/Windows_Data_Convert_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Digital_IC_design/dpu_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:22 . Memory (MB): peak = 1646.133 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+Reading block design file <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_result
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_picture_window
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_weight
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_weight_full
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - RESULT_DATA_FIFO1
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - WEIGHT_FULLCON_FIFO
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - WEIGHT_CONV_ACT_FULLCON_FIFO
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - INACT_DATA_FIFO
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /CNN_ACCELERATOR/ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - PICTURE_DATA_FIFO
+Adding component instance block -- xilinx.com:module_ref:Windows_Data_Convert_v1_0:1.0 - Windows_Data_Convert_0
+Adding component instance block -- xilinx.com:module_ref:CNN_Control:1.0 - CNN_Control_1
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_readresult
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_readresult: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_dmaread
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_dmaread: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Successfully read diagram <Accelerator_block_design> from block design file <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd>
+open_bd_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 1646.133 ; gain = 0.000
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100}] [get_bd_cells processing_system7_0]
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.C_S_AXI_ACLK_FREQ_MHZ {100.0}] [get_bd_cells axi_intc_0]
+endgroup
+regenerate_bd_layout
+set_property CONFIG.FREQ_HZ 100000000 [get_bd_intf_pins /CNN_ACCELERATOR/CNN_Control_1/image]
+set_property CONFIG.FREQ_HZ 100000000 [get_bd_intf_pins /CNN_ACCELERATOR/CNN_Control_1/weight]
+set_property CONFIG.FREQ_HZ 100000000 [get_bd_intf_pins /CNN_ACCELERATOR/CNN_Control_1/weightfc]
+validate_bd_design
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [xilinx.com:ip:axi_intc:4.1-7] /axi_intc_0: Interrupts type manual value (0xFFFFFFFF) does not match computed value (0xFFFFFFF0). Please review the manual value or consider using Auto instead.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+ERROR: [BD 41-237] Bus Interface property FREQ_HZ does not match between /CNN_ACCELERATOR/RESULT_DATA_FIFO1/S_AXIS(100000000) and /CNN_ACCELERATOR/CNN_Control_1/result(50000000)
+ERROR: [BD 41-237] Bus Interface property FREQ_HZ does not match between /CNN_ACCELERATOR/ila_0/SLOT_0_AXIS(100000000) and /CNN_ACCELERATOR/CNN_Control_1/result(50000000)
+validate_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1878.922 ; gain = 122.973
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+endgroup
+set_property CONFIG.FREQ_HZ 100000000 [get_bd_intf_pins /CNN_ACCELERATOR/CNN_Control_1/result]
+validate_bd_design
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [xilinx.com:ip:axi_intc:4.1-7] /axi_intc_0: Interrupts type manual value (0xFFFFFFFF) does not match computed value (0xFFFFFFF0). Please review the manual value or consider using Auto instead.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+validate_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1921.852 ; gain = 15.297
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.PCW_APU_PERIPHERAL_FREQMHZ {100}] [get_bd_cells processing_system7_0]
+endgroup
+validate_bd_design
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [xilinx.com:ip:axi_intc:4.1-7] /axi_intc_0: Interrupts type manual value (0xFFFFFFFF) does not match computed value (0xFFFFFFF0). Please review the manual value or consider using Auto instead.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+validate_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1954.238 ; gain = 0.000
+save_bd_design
+Wrote  : <E:\Accelerator\Accelerator_100M\Accelerator.srcs\sources_1\bd\Accelerator_block_design\Accelerator_block_design.bd> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_9a70492b.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/Accelerator/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp with file E:/Accelerator/Accelerator_100M/Accelerator.runs/synth_1/Accelerator_block_design_wrapper.dcp
+reset_run Accelerator_block_design_processing_system7_0_0_synth_1
+reset_run Accelerator_block_design_axi_dma_0_0_synth_1
+reset_run Accelerator_block_design_proc_sys_reset_0_0_synth_1
+reset_run Accelerator_block_design_axis_data_fifo_0_0_synth_1
+reset_run Accelerator_block_design_axis_data_fifo_1_0_synth_1
+reset_run Accelerator_block_design_axi_dma_0_1_synth_1
+reset_run Accelerator_block_design_axi_dma_0_2_synth_1
+reset_run Accelerator_block_design_axi_dma_0_3_synth_1
+reset_run Accelerator_block_design_axis_data_fifo_0_1_synth_1
+reset_run Accelerator_block_design_xbar_1_synth_1
+reset_run Accelerator_block_design_xbar_0_synth_1
+reset_run Accelerator_block_design_axis_data_fifo_0_2_synth_1
+reset_run Accelerator_block_design_ila_0_2_synth_1
+reset_run Accelerator_block_design_INACT_DATA_FIFO_0_synth_1
+reset_run Accelerator_block_design_axi_intc_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci' is already up-to-date
+INFO: [BD 41-1662] The design 'Accelerator_block_design.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_9a70492b.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/CNN_ACCELERATOR/CNN_Control_1/image_tkeep'(4) to pin: '/CNN_ACCELERATOR/INACT_DATA_FIFO/m_axis_tkeep'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/CNN_ACCELERATOR/CNN_Control_1/image_tstrb'(4) to pin: '/CNN_ACCELERATOR/INACT_DATA_FIFO/m_axis_tstrb'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/CNN_ACCELERATOR/CNN_Control_1/weightfc_tstrb'(1) to pin: '/CNN_ACCELERATOR/WEIGHT_FULLCON_FIFO/m_axis_tstrb'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/CNN_ACCELERATOR/CNN_Control_1/weightfc_tkeep'(1) to pin: '/CNN_ACCELERATOR/WEIGHT_FULLCON_FIFO/m_axis_tkeep'(8) - Only lower order bits will be connected.
+Verilog Output written to : e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/synth/Accelerator_block_design.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/CNN_ACCELERATOR/CNN_Control_1/image_tkeep'(4) to pin: '/CNN_ACCELERATOR/INACT_DATA_FIFO/m_axis_tkeep'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/CNN_ACCELERATOR/CNN_Control_1/image_tstrb'(4) to pin: '/CNN_ACCELERATOR/INACT_DATA_FIFO/m_axis_tstrb'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/CNN_ACCELERATOR/CNN_Control_1/weightfc_tstrb'(1) to pin: '/CNN_ACCELERATOR/WEIGHT_FULLCON_FIFO/m_axis_tstrb'(8) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/CNN_ACCELERATOR/CNN_Control_1/weightfc_tkeep'(1) to pin: '/CNN_ACCELERATOR/WEIGHT_FULLCON_FIFO/m_axis_tkeep'(8) - Only lower order bits will be connected.
+Verilog Output written to : e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/sim/Accelerator_block_design.v
+Verilog Output written to : e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/hdl/Accelerator_block_design_wrapper.v
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_9a70492b.ui> 
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_result .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_picture_window .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_weight .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_weight_full .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/RESULT_DATA_FIFO1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/WEIGHT_FULLCON_FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/WEIGHT_CONV_ACT_FULLCON_FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/INACT_DATA_FIFO .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_ila_0_0/Accelerator_block_design_ila_0_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/PICTURE_DATA_FIFO .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_ila_0_1/Accelerator_block_design_ila_0_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_readresult .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_ila_0_2/Accelerator_block_design_ila_0_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_dmaread .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_s00_data_fifo_0/Accelerator_block_design_s00_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/s00_data_fifo .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_us_0/Accelerator_block_design_auto_us_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_us_1/Accelerator_block_design_auto_us_1_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s02_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_us_2/Accelerator_block_design_auto_us_2_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s03_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_ds_0/Accelerator_block_design_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_pc_0/Accelerator_block_design_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_pc_1/Accelerator_block_design_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_couplers/auto_pc .
+Exporting to file e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/hw_handoff/Accelerator_block_design.hwh
+Generated Hardware Definition File e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/synth/Accelerator_block_design.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin image could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin result could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin weight could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin weightfc could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_INACT_DATA_FIFO_0, cache-ID = b27c4307c5fbd84d; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axis_data_fifo_1_0, cache-ID = 4c0b45447ef35196; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_ds_0, cache-ID = 89a45ec2900cb63d; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_pc_0, cache-ID = 17f12e5de2446102; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_pc_1, cache-ID = 42ad08fd9091ea99; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_us_0, cache-ID = e519df6e91c915eb; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_us_1, cache-ID = e519df6e91c915eb; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_proc_sys_reset_0_0, cache-ID = 3e769be0b73e4f4b; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axis_data_fifo_0_0, cache-ID = 1b5bbf22508484de; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axis_data_fifo_0_1, cache-ID = ede9269e11908ce1; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axi_dma_0_1, cache-ID = ab2eef641e273c69; cache size = 647.756 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axi_dma_0_2, cache-ID = 9d735132a6418d85; cache size = 647.756 MB.
+[Mon Apr 15 16:09:54 2024] Launched Accelerator_block_design_processing_system7_0_0_synth_1, Accelerator_block_design_axi_dma_0_0_synth_1, Accelerator_block_design_axi_dma_0_3_synth_1, Accelerator_block_design_xbar_1_synth_1, Accelerator_block_design_xbar_0_synth_1, Accelerator_block_design_axis_data_fifo_0_2_synth_1, Accelerator_block_design_ila_0_2_synth_1, Accelerator_block_design_axi_intc_0_0_synth_1, Accelerator_block_design_ila_0_0_synth_1, Accelerator_block_design_ila_0_1_synth_1, Accelerator_block_design_s00_data_fifo_0_synth_1, Accelerator_block_design_auto_us_2_synth_1, synth_1...
+Run output will be captured here:
+Accelerator_block_design_processing_system7_0_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_processing_system7_0_0_synth_1/runme.log
+Accelerator_block_design_axi_dma_0_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_axi_dma_0_0_synth_1/runme.log
+Accelerator_block_design_axi_dma_0_3_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_axi_dma_0_3_synth_1/runme.log
+Accelerator_block_design_xbar_1_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_xbar_1_synth_1/runme.log
+Accelerator_block_design_xbar_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_xbar_0_synth_1/runme.log
+Accelerator_block_design_axis_data_fifo_0_2_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_axis_data_fifo_0_2_synth_1/runme.log
+Accelerator_block_design_ila_0_2_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_ila_0_2_synth_1/runme.log
+Accelerator_block_design_axi_intc_0_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_axi_intc_0_0_synth_1/runme.log
+Accelerator_block_design_ila_0_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_ila_0_0_synth_1/runme.log
+Accelerator_block_design_ila_0_1_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_ila_0_1_synth_1/runme.log
+Accelerator_block_design_s00_data_fifo_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_s00_data_fifo_0_synth_1/runme.log
+Accelerator_block_design_auto_us_2_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_auto_us_2_synth_1/runme.log
+synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/synth_1/runme.log
+[Mon Apr 15 16:09:55 2024] Launched impl_1...
+Run output will be captured here: E:/Accelerator/Accelerator_100M/Accelerator.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 2196.152 ; gain = 241.914
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.829 . Memory (MB): peak = 2476.871 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6539 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3448.246 ; gain = 80.910
+Restored from archive | CPU: 5.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3448.246 ; gain = 80.910
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 3448.246 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1315 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 1272 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 37 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 5 instances
+  SRLC32E => SRL16E: 1 instance 
+
+open_run: Time (s): cpu = 00:00:46 ; elapsed = 00:00:35 . Memory (MB): peak = 3556.816 ; gain = 1316.281
+open_report: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3790.805 ; gain = 191.535
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+close_design
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.PCW_APU_PERIPHERAL_FREQMHZ {666.666666} CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {50}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.KERNEL_SIZE {5}] [get_bd_cells CNN_ACCELERATOR/Windows_Data_Convert_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.TDATA_NUM_BYTES.VALUE_SRC USER] [get_bd_cells CNN_ACCELERATOR/INACT_DATA_FIFO]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {25}] [get_bd_cells CNN_ACCELERATOR/INACT_DATA_FIFO]
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONV_KERNEL_SIZE {5} CONFIG.CONV_KERNEL_NUM {6} CONFIG.FULLCON_INPUT_SIZE {192}] [get_bd_cells CNN_ACCELERATOR/CNN_Control_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.CONV_KERNEL_NUM {8}] [get_bd_cells CNN_ACCELERATOR/CNN_Control_1]
+endgroup
+startgroup
+set_property -dict [list CONFIG.TDATA_NUM_BYTES.VALUE_SRC USER] [get_bd_cells CNN_ACCELERATOR/WEIGHT_CONV_ACT_FULLCON_FIFO]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {8}] [get_bd_cells CNN_ACCELERATOR/WEIGHT_CONV_ACT_FULLCON_FIFO]
+endgroup
+delete_bd_objs [get_bd_cells CNN_ACCELERATOR/ila_0]
+regenerate_bd_layout
+set_property CONFIG.FREQ_HZ 50000000 [get_bd_intf_pins /CNN_ACCELERATOR/CNN_Control_1/image]
+set_property CONFIG.FREQ_HZ 50000000 [get_bd_intf_pins /CNN_ACCELERATOR/CNN_Control_1/weight]
+set_property CONFIG.FREQ_HZ 50000000 [get_bd_intf_pins /CNN_ACCELERATOR/CNN_Control_1/weightfc]
+set_property CONFIG.FREQ_HZ 50000000 [get_bd_intf_pins /CNN_ACCELERATOR/CNN_Control_1/result]
+validate_bd_design
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_S_AXI_ACLK_FREQ_MHZ(100.0) on '/axi_intc_0' with propagated value(50.0). Command ignored
+WARNING: [xilinx.com:ip:axi_intc:4.1-7] /axi_intc_0: Interrupts type manual value (0xFFFFFFFF) does not match computed value (0xFFFFFFF0). Please review the manual value or consider using Auto instead.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+CRITICAL WARNING: [BD 41-237] Bus Interface property TDATA_NUM_BYTES does not match between /CNN_ACCELERATOR/WEIGHT_CONV_ACT_FULLCON_FIFO/S_AXIS(8) and /axi_dma_weight/M_AXIS_MM2S(4)
+CRITICAL WARNING: [BD 41-237] Bus Interface property TDATA_NUM_BYTES does not match between /CNN_ACCELERATOR/CNN_Control_1/image(64) and /CNN_ACCELERATOR/INACT_DATA_FIFO/M_AXIS(25)
+validate_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 3915.035 ; gain = 0.000
+startgroup
+set_property -dict [list CONFIG.c_m_axi_mm2s_data_width {64} CONFIG.c_m_axis_mm2s_tdata_width {64} CONFIG.c_mm2s_burst_size {8}] [get_bd_cells axi_dma_weight]
+endgroup
+startgroup
+endgroup
+startgroup
+endgroup
+startgroup
+endgroup
+startgroup
+endgroup
+startgroup
+endgroup
+save_bd_design
+Wrote  : <E:\Accelerator\Accelerator_100M\Accelerator.srcs\sources_1\bd\Accelerator_block_design\Accelerator_block_design.bd> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_9a70492b.ui> 
+update_module_reference Accelerator_block_design_CNN_Control_1_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'image' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'result' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'weight' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'weightfc' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's00_axi'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's00_axi_aresetn'.
+WARNING: [IP_Flow 19-3158] Bus Interface 'image': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 'result': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 'weight': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 'weightfc': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/ip_package_rtl/CNN_Control'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/IP_design/CNN_Control/CNN_Control_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/IP_design/Windows_Data_Convert_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Digital_IC_design/dpu_ip'.
+Upgrading 'E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd'
+INFO: [IP_Flow 19-3420] Updated Accelerator_block_design_CNN_Control_1_0 to use current project options
+WARNING: [IP_Flow 19-4706] Upgraded port 'image_tdata' width 200 differs from original width 512
+WARNING: [IP_Flow 19-4706] Upgraded port 'image_tkeep' width 25 differs from original width 4
+WARNING: [IP_Flow 19-4706] Upgraded port 'image_tstrb' width 25 differs from original width 4
+WARNING: [IP_Flow 19-4706] Upgraded port 'weightfc_tkeep' width 8 differs from original width 1
+WARNING: [IP_Flow 19-4706] Upgraded port 'weightfc_tstrb' width 8 differs from original width 1
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'Accelerator_block_design_CNN_Control_1_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'Accelerator_block_design_CNN_Control_1_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <E:\Accelerator\Accelerator_100M\Accelerator.srcs\sources_1\bd\Accelerator_block_design\Accelerator_block_design.bd> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_9a70492b.ui> 
+update_module_reference: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3915.035 ; gain = 0.000
+startgroup
+endgroup
+validate_bd_design
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_S_AXI_ACLK_FREQ_MHZ(100.0) on '/axi_intc_0' with propagated value(50.0). Command ignored
+WARNING: [xilinx.com:ip:axi_intc:4.1-7] /axi_intc_0: Interrupts type manual value (0xFFFFFFFF) does not match computed value (0xFFFFFFF0). Please review the manual value or consider using Auto instead.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+validate_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3915.035 ; gain = 0.000
+startgroup
+set_property -dict [list CONFIG.FIFO_DEPTH {1024}] [get_bd_cells CNN_ACCELERATOR/INACT_DATA_FIFO]
+endgroup
+startgroup
+set_property -dict [list CONFIG.FIFO_DEPTH {1024}] [get_bd_cells CNN_ACCELERATOR/RESULT_DATA_FIFO1]
+endgroup
+validate_bd_design
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_S_AXI_ACLK_FREQ_MHZ(100.0) on '/axi_intc_0' with propagated value(50.0). Command ignored
+WARNING: [xilinx.com:ip:axi_intc:4.1-7] /axi_intc_0: Interrupts type manual value (0xFFFFFFFF) does not match computed value (0xFFFFFFF0). Please review the manual value or consider using Auto instead.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /ila_dmaread/SLOT_0_AXI(1) and /axi_dma_result/M_AXI_S2MM(0)
+validate_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3915.035 ; gain = 0.000
+save_bd_design
+Wrote  : <E:\Accelerator\Accelerator_100M\Accelerator.srcs\sources_1\bd\Accelerator_block_design\Accelerator_block_design.bd> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_9a70492b.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/Accelerator/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp with file E:/Accelerator/Accelerator_100M/Accelerator.runs/synth_1/Accelerator_block_design_wrapper.dcp
+reset_run Accelerator_block_design_processing_system7_0_0_synth_1
+reset_run Accelerator_block_design_axi_dma_0_0_synth_1
+reset_run Accelerator_block_design_axi_dma_0_3_synth_1
+reset_run Accelerator_block_design_xbar_1_synth_1
+reset_run Accelerator_block_design_xbar_0_synth_1
+reset_run Accelerator_block_design_axis_data_fifo_0_2_synth_1
+reset_run Accelerator_block_design_Windows_Data_Convert_0_5_synth_1
+reset_run Accelerator_block_design_ila_0_2_synth_1
+reset_run Accelerator_block_design_ila_0_1_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci' is already up-to-date
+INFO: [BD 41-1662] The design 'Accelerator_block_design.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_9a70492b.ui> 
+Verilog Output written to : e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/synth/Accelerator_block_design.v
+Verilog Output written to : e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/sim/Accelerator_block_design.v
+Verilog Output written to : e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/hdl/Accelerator_block_design_wrapper.v
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Wrote  : <E:/Accelerator/Accelerator_100M/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_9a70492b.ui> 
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_result .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_picture_window .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_weight .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_weight_full .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/RESULT_DATA_FIFO1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/WEIGHT_FULLCON_FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/WEIGHT_CONV_ACT_FULLCON_FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/INACT_DATA_FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/PICTURE_DATA_FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/Windows_Data_Convert_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CNN_ACCELERATOR/CNN_Control_1 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_ila_0_1/Accelerator_block_design_ila_0_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_readresult .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_ila_0_2/Accelerator_block_design_ila_0_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_dmaread .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_s00_data_fifo_0/Accelerator_block_design_s00_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/s00_data_fifo .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_us_0/Accelerator_block_design_auto_us_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_us_1/Accelerator_block_design_auto_us_1_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s02_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_us_2/Accelerator_block_design_auto_us_2_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s03_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_ds_0/Accelerator_block_design_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_pc_0/Accelerator_block_design_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_pc_1/Accelerator_block_design_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_couplers/auto_pc .
+Exporting to file e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/hw_handoff/Accelerator_block_design.hwh
+Generated Hardware Definition File e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/synth/Accelerator_block_design.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin image could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin result could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin weight could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin weightfc could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axi_dma_0_2, cache-ID = d89706256a2c5855; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_s00_data_fifo_0, cache-ID = d8271c2434b30b6f; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axi_dma_0_3, cache-ID = d89706256a2c5855; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_ila_0_2, cache-ID = 8232e2b545938da5; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_ds_0, cache-ID = 54b9edd7788406d3; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axis_data_fifo_0_2, cache-ID = c54454d6e8a45317; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_pc_0, cache-ID = 81e16e67b40e7abf; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_pc_1, cache-ID = e724e0b0bf1cf8c4; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axis_data_fifo_0_1, cache-ID = d6278f979518fa0f; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_proc_sys_reset_0_0, cache-ID = 557a95c4c616d199; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_us_0, cache-ID = 38046c7b7941a505; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_ila_0_1, cache-ID = 7214a53b939dbffd; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_us_1, cache-ID = bf728c5207294ecc; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_us_2, cache-ID = bf728c5207294ecc; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axis_data_fifo_1_0, cache-ID = d6278f979518fa0f; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_xbar_1, cache-ID = fe8b0e0d02acf116; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axi_dma_0_0, cache-ID = 534603500654d56a; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axi_dma_0_1, cache-ID = d27cf9fb26dc6ca0; cache size = 692.680 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_xbar_0, cache-ID = 6f8db6e299e5d76f; cache size = 692.680 MB.
+config_ip_cache: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 3915.035 ; gain = 0.000
+[Mon Apr 15 18:22:00 2024] Launched Accelerator_block_design_processing_system7_0_0_synth_1, Accelerator_block_design_Windows_Data_Convert_0_5_synth_1, Accelerator_block_design_axis_data_fifo_0_0_synth_1, Accelerator_block_design_INACT_DATA_FIFO_0_synth_1, Accelerator_block_design_CNN_Control_1_0_synth_1, synth_1...
+Run output will be captured here:
+Accelerator_block_design_processing_system7_0_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_processing_system7_0_0_synth_1/runme.log
+Accelerator_block_design_Windows_Data_Convert_0_5_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_Windows_Data_Convert_0_5_synth_1/runme.log
+Accelerator_block_design_axis_data_fifo_0_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_axis_data_fifo_0_0_synth_1/runme.log
+Accelerator_block_design_INACT_DATA_FIFO_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_INACT_DATA_FIFO_0_synth_1/runme.log
+Accelerator_block_design_CNN_Control_1_0_synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/Accelerator_block_design_CNN_Control_1_0_synth_1/runme.log
+synth_1: E:/Accelerator/Accelerator_100M/Accelerator.runs/synth_1/runme.log
+[Mon Apr 15 18:22:00 2024] Launched impl_1...
+Run output will be captured here: E:/Accelerator/Accelerator_100M/Accelerator.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:51 ; elapsed = 00:01:03 . Memory (MB): peak = 3915.035 ; gain = 0.000
+CRITICAL WARNING: [HDL 9-849] Syntax error : file ended before end of clause. [e:/Accelerator/Accelerator_100M/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_CNN_Control_1_0/Accelerator_block_design_CNN_Control_1_0_sim_netlist.vhdl:463132]
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 15 18:52:07 2024...

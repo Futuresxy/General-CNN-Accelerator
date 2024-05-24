@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.267943",
+   "Default View_TopLeft":"-1541,-552",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 10 -x 3070 -y 720 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 10 -x 3070 -y 740 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 10 -x 3070 -y 20 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 7 -x 1995 -y 250 -defaultsOSRD
+preplace inst axi_dma_1 -pg 1 -lvl 3 -x 300 -y 500 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 8 -x 2399 -y 440 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -x -51 -y 380 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x -410 -y 770 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 9 -x 2796 -y 770 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 8 -x 2399 -y 810 -defaultsOSRD
+preplace inst INACT_DATA_FIFO -pg 1 -lvl 6 -x 1510 -y 410 -defaultsOSRD
+preplace inst ila_outw -pg 1 -lvl 6 -x 1510 -y 740 -defaultsOSRD
+preplace inst Picture -pg 1 -lvl 4 -x 680 -y 420 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 7 -x 1995 -y 480 -defaultsOSRD
+preplace inst Windows_Data_Convert_0 -pg 1 -lvl 5 -x 1113 -y 460 -defaultsOSRD
+preplace netloc ARESETN_1 1 1 7 -240 130 NJ 130 NJ 130 N 130 NJ 130 NJ 130 2210
+preplace netloc M00_ARESETN_1 1 1 7 -230 150 120 320 520 320 840 310 1280 310 1710 400 2180
+preplace netloc axi_dma_0_s2mm_introut 1 7 1 2190 270n
+preplace netloc axi_dma_1_mm2s_introut 1 3 5 500 330 N 330 NJ 330 1670J 390 2170J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 10 -590 520 -220 160 110 340 490 340 860 320 1270 320 1690 410 2220 670 2550 880 3030
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 10 -580 660 NJ 660 NJ 660 NJ 660 N 660 NJ 660 NJ 660 NJ 660 NJ 660 3040
+preplace netloc xlconcat_0_dout 1 8 1 N 810
+preplace netloc INACT_DATA_FIFO_M_AXIS 1 6 1 1680 230n
+preplace netloc Picture_M_AXIS 1 4 1 850 390n
+preplace netloc Windows_Data_Convert_0_m00_axis 1 5 1 1290 390n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 7 1 2200 230n
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 3 1 510 400n
+preplace netloc axi_dma_1_M_AXI_MM2S 1 3 5 480 300 N 300 NJ 300 1700J 350 2200J
+preplace netloc axi_interconnect_0_M00_AXI 1 8 1 2560 440n
+preplace netloc axi_interconnect_1_M00_AXI 1 2 5 130 210 NJ 210 N 210 NJ 210 NJ
+preplace netloc axi_interconnect_1_M01_AXI 1 2 1 100 350n
+preplace netloc axi_interconnect_1_M04_AXI 1 2 3 N 410 470J 500 870
+preplace netloc processing_system7_0_DDR 1 9 1 NJ 720
+preplace netloc processing_system7_0_FIXED_IO 1 9 1 NJ 740
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 9 -210 140 NJ 140 NJ 140 N 140 NJ 140 NJ 140 NJ 140 NJ 140 3050
+levelinfo -pg 1 -610 -410 -51 300 680 1113 1510 1995 2399 2796 3070
+pagesize -pg 1 -db -bbox -sgen -610 -80 3200 1210
+"
+}
+0

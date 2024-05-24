@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu May 23 23:07:44 2024
+# Process ID: 1444
+# Current directory: E:/Accelerator/CNN_Accelerator_Vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15792 E:\Accelerator\CNN_Accelerator_Vivado_project\Accelerator.xpr
+# Log file: E:/Accelerator/CNN_Accelerator_Vivado_project/vivado.log
+# Journal file: E:/Accelerator/CNN_Accelerator_Vivado_project\vivado.jou
+# Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+set_property location {4 1727 665} [get_bd_cells axi_gpio_0]
+set_property -dict [list CONFIG.C_GPIO_WIDTH {1} CONFIG.C_ALL_INPUTS {1} CONFIG.C_INTERRUPT_PRESENT {1}] [get_bd_cells axi_gpio_0]
+connect_bd_net [get_bd_pins axi_gpio_0/gpio_io_i] [get_bd_pins CNN_ACCELERATOR/cnn_done]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_interconnect_1/M07_AXI] [get_bd_intf_pins axi_gpio_0/S_AXI]
+connect_bd_net [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0]
+connect_bd_net [get_bd_pins axi_gpio_0/s_axi_aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+save_bd_design
+assign_bd_address
+validate_bd_design
+reset_run Accelerator_block_design_processing_system7_0_0_synth_1
+save_bd_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

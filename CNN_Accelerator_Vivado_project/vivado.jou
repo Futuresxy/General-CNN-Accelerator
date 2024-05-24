@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri May 24 19:01:40 2024
+# Process ID: 17480
+# Current directory: E:/Accelerator/CNN_Accelerator_Vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19424 E:\Accelerator\CNN_Accelerator_Vivado_project\Accelerator.xpr
+# Log file: E:/Accelerator/CNN_Accelerator_Vivado_project/vivado.log
+# Journal file: E:/Accelerator/CNN_Accelerator_Vivado_project\vivado.jou
+# Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.xpr
+reset_project
+update_compile_order -fileset sources_1
+write_project_tcl -all_properties -use_bd_files {E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.tcl}

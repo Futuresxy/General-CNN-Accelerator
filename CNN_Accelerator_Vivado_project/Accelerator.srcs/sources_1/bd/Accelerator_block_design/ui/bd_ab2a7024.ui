@@ -1,0 +1,331 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_ExpandedHierarchyInLayout":"",
+   "Addressing View_Layers":"/axi_intc_0_irq:false|/axi_dma_0_s2mm_introut:false|/processing_system7_0_FCLK_CLK0:false|/M00_ARESETN_1:false|/processing_system7_0_FCLK_RESET0_N:false|/ARESETN_1:false|/axi_dma_3_mm2s_introut:false|/axi_dma_2_mm2s_introut:false|/axi_dma_1_mm2s_introut:false|",
+   "Addressing View_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 6 -x 1690 -y 280 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 6 -x 1690 -y 320 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 1090 -y 340 -defaultsOSRD -resize 400 136
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -x 660 -y 350 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 5 -x 1470 -y 100 -defaultsOSRD
+preplace inst axi_dma_result -pg 1 -lvl 4 -x 1090 -y 130 -defaultsOSRD
+preplace inst axi_dma_picture_window -pg 1 -lvl 2 -x 210 -y -30 -defaultsOSRD
+preplace inst axi_dma_weight -pg 1 -lvl 2 -x 210 -y 160 -defaultsOSRD
+preplace inst axi_dma_weight_full -pg 1 -lvl 2 -x 210 -y 300 -defaultsOSRD
+preplace inst CNN_ACCELERATOR -pg 1 -lvl 3 -x 660 -y 140 -defaultsOSRD -resize 378 214
+preplace inst axi_intc_0 -pg 1 -lvl 2 -x 210 -y 430 -defaultsOSRD
+preplace netloc CNN_ACCELERATOR_M_AXIS 1 3 1 N 140
+preplace netloc axi_dma_0_M_AXI_S2MM 1 2 3 440 10 N 10 1310
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 2 1 390 -20n
+preplace netloc axi_dma_1_M_AXI_MM2S 1 2 1 400 -40n
+preplace netloc axi_dma_2_M_AXIS_MM2S 1 2 1 420 140n
+preplace netloc axi_dma_2_M_AXI_MM2S 1 2 1 360 150n
+preplace netloc axi_dma_3_M_AXIS_MM2S 1 2 1 410 110n
+preplace netloc axi_dma_3_M_AXI_MM2S 1 2 1 350 290n
+preplace netloc axi_interconnect_1_M00_AXI 1 3 3 870 -80 N -80 1610
+preplace netloc axi_interconnect_1_M01_AXI 1 1 5 50 40 350 -90 N -90 N -90 1670
+preplace netloc axi_interconnect_1_M02_AXI 1 1 5 50 50 360 -70 N -70 N -70 1660
+preplace netloc axi_interconnect_1_M03_AXI 1 1 5 60 60 370 -60 N -60 N -60 1650
+preplace netloc axi_interconnect_1_M04_AXI 1 2 4 430 -50 N -50 N -50 1640
+preplace netloc axi_interconnect_1_M05_AXI 1 2 4 450 -40 N -40 N -40 1630
+preplace netloc axi_interconnect_1_M06_AXI 1 1 5 70 70 380 -30 N -30 N -30 1620
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 N 350
+preplace netloc processing_system7_0_DDR 1 4 2 1310 280 N
+preplace netloc processing_system7_0_FIXED_IO 1 4 2 1330 320 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 1 1320 100n
+levelinfo -pg 1 0 30 210 660 1090 1470 1690
+pagesize -pg 1 -db -bbox -sgen 0 -100 1820 570
+",
+   "Addressing View_ScaleFactor":"1.89396",
+   "Addressing View_TopLeft":"167,-14",
+   "Color Coded_ExpandedHierarchyInLayout":"",
+   "Color Coded_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 6 -x 2770 -y 130 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 6 -x 2770 -y 150 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 6 -x 2770 -y 1070 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 1600 -y 210 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -x 2120 -y 160 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -x 630 -y 310 -defaultsOSRD
+preplace inst axi_dma_result -pg 1 -lvl 5 -x 2120 -y 500 -defaultsOSRD
+preplace inst axi_dma_picture_window -pg 1 -lvl 3 -x 1070 -y 100 -defaultsOSRD
+preplace inst axi_dma_weight -pg 1 -lvl 3 -x 1070 -y 280 -defaultsOSRD
+preplace inst axi_dma_weight_full -pg 1 -lvl 3 -x 1070 -y 510 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 240 -y 180 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 240 -y 400 -swap {1 4 2 3 0 5} -defaultsOSRD
+preplace inst CNN_ACCELERATOR -pg 1 -lvl 4 -x 1600 -y 470 -defaultsOSRD -resize 378 214
+preplace inst axi_intc_0 -pg 1 -lvl 3 -x 1070 -y 900 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 18 20 21} -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -x 1070 -y 720 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 21 20 22} -defaultsOSRD
+preplace netloc ARESETN_1 1 1 4 410 -40 N -40 1330 0 1900J
+preplace netloc CNN_ACCELERATOR_cnn_cnt_0 1 4 2 1850J 1070 NJ
+preplace netloc CNN_ACCELERATOR_cnn_done 1 0 5 40 600 N 600 N 600 1260 600 1830
+preplace netloc M00_ARESETN_1 1 1 4 420 30 870 410 1250 340 1900
+preplace netloc axi_dma_0_s2mm_introut 1 0 6 50 610 N 610 N 610 N 610 NJ 610 2310
+preplace netloc axi_dma_1_mm2s_introut 1 0 4 10 -30 N -30 N -30 1260
+preplace netloc axi_dma_2_mm2s_introut 1 0 4 20 -20 N -20 N -20 1250
+preplace netloc axi_dma_3_mm2s_introut 1 0 4 30 -10 N -10 N -10 1240
+preplace netloc axi_intc_0_irq 1 3 1 1340 250n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 50 80 440 40 830 370 1330 90 1890
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 5 40 0 N 0 N 0 1280 10 1840
+preplace netloc xlconcat_0_dout 1 1 2 430 50 800
+preplace netloc CNN_ACCELERATOR_M_AXIS 1 4 1 1850 450n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 4 2 1910 400 2310
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 3 1 1290 90n
+preplace netloc axi_dma_1_M_AXI_MM2S 1 3 2 1270 30 NJ
+preplace netloc axi_dma_2_M_AXIS_MM2S 1 3 1 1310 270n
+preplace netloc axi_dma_2_M_AXI_MM2S 1 3 2 1280 50 NJ
+preplace netloc axi_dma_3_M_AXIS_MM2S 1 3 1 1350 430n
+preplace netloc axi_dma_3_M_AXI_MM2S 1 3 2 1320 320 1850J
+preplace netloc axi_interconnect_0_M00_AXI 1 3 3 1350 330 1840 370 2310
+preplace netloc axi_interconnect_1_M00_AXI 1 2 3 820 190 1310 100 1880J
+preplace netloc axi_interconnect_1_M01_AXI 1 2 1 810 70n
+preplace netloc axi_interconnect_1_M02_AXI 1 2 1 880 250n
+preplace netloc axi_interconnect_1_M03_AXI 1 2 1 860 300n
+preplace netloc axi_interconnect_1_M04_AXI 1 2 2 850 420 1260
+preplace netloc axi_interconnect_1_M05_AXI 1 2 2 840 390 1300
+preplace netloc axi_interconnect_1_M06_AXI 1 2 1 790 360n
+preplace netloc axi_interconnect_1_M07_AXI 1 2 1 780 380n
+preplace netloc processing_system7_0_DDR 1 4 2 1870 390 2320J
+preplace netloc processing_system7_0_FIXED_IO 1 4 2 1860 380 2330J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 4 450 10 N 10 1270 20 1830
+levelinfo -pg 1 -10 240 630 1070 1600 2120 2770
+pagesize -pg 1 -db -bbox -sgen -10 -50 2900 1190
+",
+   "Color Coded_ScaleFactor":"1.0",
+   "Color Coded_TopLeft":"631,-74",
+   "Default View_Layers":"/processing_system7_0_FCLK_RESET0_N:true|/axi_dma_2_mm2s_introut:true|/axi_dma_3_mm2s_introut:true|/M00_ARESETN_1:true|/processing_system7_0_FCLK_CLK0:true|/axi_dma_1_mm2s_introut:true|/axi_dma_0_s2mm_introut:true|/ARESETN_1:true|/axi_intc_0_irq:true|",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"1589,349",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeInterrupt":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_Layers":"/processing_system7_0_FCLK_RESET0_N:true|/axi_dma_2_mm2s_introut:true|/axi_dma_3_mm2s_introut:true|/M00_ARESETN_1:true|/processing_system7_0_FCLK_CLK0:true|/axi_dma_1_mm2s_introut:true|/axi_dma_0_s2mm_introut:true|/ARESETN_1:true|",
+   "Grouping and No Loops_ScaleFactor":"0.428682",
+   "Grouping and No Loops_TopLeft":"-282,0",
+   "Interfaces View_ExpandedHierarchyInLayout":"/CNN_ACCELERATOR",
+   "Interfaces View_Layers":"/processing_system7_0_FCLK_RESET0_N:false|/axi_dma_2_mm2s_introut:false|/axi_dma_3_mm2s_introut:false|/M00_ARESETN_1:false|/processing_system7_0_FCLK_CLK0:false|/axi_dma_1_mm2s_introut:false|/axi_dma_0_s2mm_introut:false|/ARESETN_1:false|",
+   "Interfaces View_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 8 -x 3140 -y 310 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 8 -x 3140 -y 410 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 560 -y 330 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 7 -x 2980 -y 90 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -x 190 -y 130 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 6 -x 2670 -y 190 -defaultsOSRD
+preplace inst axi_dma_1 -pg 1 -lvl 4 -x 970 -y 200 -defaultsOSRD
+preplace inst axi_dma_2 -pg 1 -lvl 4 -x 970 -y 480 -defaultsOSRD
+preplace inst axi_dma_3 -pg 1 -lvl 4 -x 970 -y 340 -defaultsOSRD
+preplace inst CNN_ACCELERATOR -pg 1 -lvl 5 -x 1350 -y 222 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|RESULT_DATA_FIFO1 -pg 1 -lvl 4 -x 2270 -y 412 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|WEIGHT_FULLCON_FIFO -pg 1 -lvl 2 -x 1730 -y 392 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|WEIGHT_CONV_ACT_FULLCON_FIFO -pg 1 -lvl 2 -x 1730 -y 232 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|INACT_DATA_FIFO -pg 1 -lvl 2 -x 1730 -y 552 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|Windows_Data_Convert_0 -pg 1 -lvl 1 -x 1450 -y 532 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|CNN_Control_0 -pg 1 -lvl 3 -x 2010 -y 402 -defaultsOSRD
+preplace netloc ARESETN_1 1 1 6 40 200n NJ 200n NJ 200n 1440 240n 1780J 340n 2280J
+preplace netloc CNN_ACCELERATOR_cnn_done 1 5 2 1700J 400n 2220
+preplace netloc M00_ARESETN_1 1 1 6 40 980n NJ 980n 960 560n 1420 360n 1720 380n 2240
+preplace netloc axi_dma_0_s2mm_introut 1 6 1 2180 700n
+preplace netloc axi_dma_1_mm2s_introut 1 4 3 1380J 340n 1740J 360n 2260
+preplace netloc axi_dma_2_mm2s_introut 1 4 3 N 900n 1780J 840n 2120J
+preplace netloc axi_dma_3_mm2s_introut 1 4 3 1320 840n 1740J 820n 2160J
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 6 80 940n 380 960n 900 740n 1460 780n 1740 780n 2200
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 3 1 880 120n
+preplace netloc xlconcat_0_dout 1 2 6 400 940n 940J 780n 1300J 820n 1720J 800n 2140J 1060n 2580
+preplace netloc CNN_ACCELERATOR_M_AXIS 1 5 1 2500 200n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 6 1 2830 60n
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 4 1 1170 210n
+preplace netloc axi_dma_1_M_AXI_MM2S 1 4 3 1120J 90 NJ 90 2840J
+preplace netloc axi_dma_2_M_AXIS_MM2S 1 4 1 1130 392n
+preplace netloc axi_dma_2_M_AXI_MM2S 1 4 3 1140 100 NJ 100 NJ
+preplace netloc axi_dma_3_M_AXIS_MM2S 1 4 1 1130 350n
+preplace netloc axi_dma_3_M_AXI_MM2S 1 4 3 1160 110 NJ 110 2840J
+preplace netloc axi_interconnect_0_M00_AXI 1 2 6 340 160 810J 120 NJ 120 NJ 120 2820J 180 3120
+preplace netloc axi_interconnect_1_M00_AXI 1 2 4 N 80 NJ 80 NJ 80 2500J
+preplace netloc axi_interconnect_1_M01_AXI 1 2 2 340 120 790J
+preplace netloc axi_interconnect_1_M02_AXI 1 2 2 330 130 800J
+preplace netloc axi_interconnect_1_M03_AXI 1 2 2 N 140 820J
+preplace netloc axi_interconnect_1_M04_AXI 1 2 3 330 150 780J 110 1150J
+preplace netloc axi_interconnect_1_M05_AXI 1 2 3 330 170 830J 130 1180J
+preplace netloc processing_system7_0_DDR 1 3 5 830J 270 1120J 684 2510J 310 NJ 310 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 3 5 790J 410 1110J 784 2520J 410 NJ 410 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 3 50 240 NJ 240 780
+preplace netloc CNN_ACCELERATOR|CNN_Control_0_cnn_done 1 3 1 N 412
+preplace netloc CNN_ACCELERATOR|s_axis_aclk_1 1 0 4 1300 402 1610 472 1870 512 2150J
+preplace netloc CNN_ACCELERATOR|CNN_Control_0_result 1 3 1 N 392
+preplace netloc CNN_ACCELERATOR|Conn1 1 4 1 N 412
+preplace netloc CNN_ACCELERATOR|Conn2 1 0 3 NJ 312 NJ 312 1850
+preplace netloc CNN_ACCELERATOR|Conn3 1 0 1 N 462
+preplace netloc CNN_ACCELERATOR|Conn4 1 0 2 NJ 372 N
+preplace netloc CNN_ACCELERATOR|Conn5 1 0 2 NJ 392 1600
+preplace netloc CNN_ACCELERATOR|Conn6 1 0 1 N 482
+preplace netloc CNN_ACCELERATOR|INACT_DATA_FIFO_M_AXIS 1 2 1 1860 352n
+preplace netloc CNN_ACCELERATOR|WEIGHT_CONV_ACT_FULLCON_FIFO_M_AXIS 1 2 1 1870 232n
+preplace netloc CNN_ACCELERATOR|WEIGHT_FULLCON_FIFO_M_AXIS 1 2 1 N 392
+preplace netloc CNN_ACCELERATOR|Windows_Data_Convert_0_m00_axis 1 1 1 N 532
+levelinfo -pg 1 0 30 190 560 970 1350 2670 2980 3140
+levelinfo -hier CNN_ACCELERATOR * 1450 1730 2010 2270 *
+pagesize -pg 1 -db -bbox -sgen 0 0 3270 800
+pagesize -hier CNN_ACCELERATOR -db -bbox -sgen 1270 152 2420 662
+",
+   "Interfaces View_ScaleFactor":"0.605164",
+   "Interfaces View_TopLeft":"178,-292",
+   "No Loops_ExpandedHierarchyInLayout":"/CNN_ACCELERATOR",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 7 -x 3920 -y 340 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 7 -x 3920 -y 1180 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 1010 -y 1120 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 27 17 18 19 20 21 22 16 24 25 26 23 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 113 112 114 115 116} -defaultsOSRD -pinDir DDR right -pinY DDR 0R -pinDir FIXED_IO right -pinY FIXED_IO 60R -pinDir USBIND_0 right -pinY USBIND_0 20R -pinDir S_AXI_HP0_FIFO_CTRL right -pinY S_AXI_HP0_FIFO_CTRL 40R -pinDir M_AXI_GP0 left -pinY M_AXI_GP0 0L -pinDir S_AXI_HP0 right -pinY S_AXI_HP0 80R -pinDir M_AXI_GP0_ACLK left -pinY M_AXI_GP0_ACLK 40L -pinDir S_AXI_HP0_ACLK left -pinY S_AXI_HP0_ACLK 20L -pinBusDir IRQ_F2P left -pinBusY IRQ_F2P 160L -pinDir FCLK_CLK0 right -pinY FCLK_CLK0 100R -pinDir FCLK_RESET0_N left -pinY FCLK_RESET0_N 180L
+preplace inst axi_interconnect_0 -pg 1 -lvl 6 -x 3777 -y 400 -swap {95 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 112 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 0 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 38 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 78 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 135 129 131 137 130 133 139 140 132 136 134 138} -defaultsOSRD -pinDir S00_AXI left -pinY S00_AXI 200L -pinDir M00_AXI left -pinY M00_AXI 480L -pinDir S01_AXI left -pinY S01_AXI 0L -pinDir S02_AXI left -pinY S02_AXI 60L -pinDir S03_AXI left -pinY S03_AXI 100L -pinDir ACLK left -pinY ACLK 620L -pinDir ARESETN left -pinY ARESETN 500L -pinDir S00_ACLK left -pinY S00_ACLK 540L -pinDir S00_ARESETN left -pinY S00_ARESETN 660L -pinDir M00_ACLK left -pinY M00_ACLK 520L -pinDir M00_ARESETN left -pinY M00_ARESETN 580L -pinDir S01_ACLK left -pinY S01_ACLK 700L -pinDir S01_ARESETN left -pinY S01_ARESETN 720L -pinDir S02_ACLK left -pinY S02_ACLK 560L -pinDir S02_ARESETN left -pinY S02_ARESETN 640L -pinDir S03_ACLK left -pinY S03_ACLK 600L -pinDir S03_ARESETN left -pinY S03_ARESETN 680L
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -x 470 -y 360 -swap {139 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 0 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 99 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 59 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 79 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 119 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 167 159 168 160 169 161 170 162 171 163 172 164 173 165 174 166} -defaultsOSRD -pinDir S00_AXI right -pinY S00_AXI 760R -pinDir M00_AXI right -pinY M00_AXI 140R -pinDir M01_AXI right -pinY M01_AXI 0R -pinDir M02_AXI right -pinY M02_AXI 580R -pinDir M03_AXI right -pinY M03_AXI 260R -pinDir M04_AXI right -pinY M04_AXI 440R -pinDir M05_AXI right -pinY M05_AXI 600R -pinDir ACLK left -pinY ACLK 160L -pinDir ARESETN left -pinY ARESETN 0L -pinDir S00_ACLK left -pinY S00_ACLK 180L -pinDir S00_ARESETN left -pinY S00_ARESETN 20L -pinDir M00_ACLK left -pinY M00_ACLK 200L -pinDir M00_ARESETN left -pinY M00_ARESETN 40L -pinDir M01_ACLK left -pinY M01_ACLK 220L -pinDir M01_ARESETN left -pinY M01_ARESETN 60L -pinDir M02_ACLK left -pinY M02_ACLK 240L -pinDir M02_ARESETN left -pinY M02_ARESETN 80L -pinDir M03_ACLK left -pinY M03_ACLK 260L -pinDir M03_ARESETN left -pinY M03_ARESETN 100L -pinDir M04_ACLK left -pinY M04_ACLK 280L -pinDir M04_ARESETN left -pinY M04_ARESETN 120L -pinDir M05_ACLK left -pinY M05_ACLK 300L -pinDir M05_ARESETN left -pinY M05_ARESETN 140L
+preplace inst axi_dma_0 -pg 1 -lvl 5 -x 3400 -y 600 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 42 41 44 43 40} -defaultsOSRD -pinDir S_AXI_LITE left -pinY S_AXI_LITE 0L -pinDir M_AXI_S2MM right -pinY M_AXI_S2MM 0R -pinDir S_AXIS_S2MM left -pinY S_AXIS_S2MM 60L -pinDir s_axi_lite_aclk left -pinY s_axi_lite_aclk 120L -pinDir m_axi_s2mm_aclk left -pinY m_axi_s2mm_aclk 100L -pinDir axi_resetn left -pinY axi_resetn 140L -pinDir s2mm_prmry_reset_out_n right -pinY s2mm_prmry_reset_out_n 20R -pinDir s2mm_introut left -pinY s2mm_introut 80L
+preplace inst axi_dma_1 -pg 1 -lvl 3 -x 1010 -y 370 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 41 39 37 40 38} -defaultsOSRD -pinDir S_AXI_LITE left -pinY S_AXI_LITE 0L -pinDir M_AXI_MM2S right -pinY M_AXI_MM2S 40R -pinDir M_AXIS_MM2S right -pinY M_AXIS_MM2S 60R -pinDir s_axi_lite_aclk left -pinY s_axi_lite_aclk 80L -pinDir m_axi_mm2s_aclk left -pinY m_axi_mm2s_aclk 60L -pinDir axi_resetn left -pinY axi_resetn 20L -pinDir mm2s_prmry_reset_out_n right -pinY mm2s_prmry_reset_out_n 80R -pinDir mm2s_introut left -pinY mm2s_introut 40L
+preplace inst axi_dma_2 -pg 1 -lvl 3 -x 1010 -y 820 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 39 41 37 40 38} -defaultsOSRD -pinDir S_AXI_LITE left -pinY S_AXI_LITE 0L -pinDir M_AXI_MM2S right -pinY M_AXI_MM2S 0R -pinDir M_AXIS_MM2S right -pinY M_AXIS_MM2S 60R -pinDir s_axi_lite_aclk left -pinY s_axi_lite_aclk 60L -pinDir m_axi_mm2s_aclk left -pinY m_axi_mm2s_aclk 80L -pinDir axi_resetn left -pinY axi_resetn 20L -pinDir mm2s_prmry_reset_out_n right -pinY mm2s_prmry_reset_out_n 80R -pinDir mm2s_introut left -pinY mm2s_introut 40L
+preplace inst axi_dma_3 -pg 1 -lvl 3 -x 1010 -y 620 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 41 39 37 40 38} -defaultsOSRD -pinDir S_AXI_LITE left -pinY S_AXI_LITE 0L -pinDir M_AXI_MM2S right -pinY M_AXI_MM2S 0R -pinDir M_AXIS_MM2S right -pinY M_AXIS_MM2S 60R -pinDir s_axi_lite_aclk left -pinY s_axi_lite_aclk 80L -pinDir m_axi_mm2s_aclk left -pinY m_axi_mm2s_aclk 60L -pinDir axi_resetn left -pinY axi_resetn 20L -pinDir mm2s_prmry_reset_out_n right -pinY mm2s_prmry_reset_out_n 80R -pinDir mm2s_introut left -pinY mm2s_introut 40L
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 90 -y 60 -swap {8 9 2 3 4 0 1 5 6 7} -defaultsOSRD -pinDir slowest_sync_clk right -pinY slowest_sync_clk 100R -pinDir ext_reset_in right -pinY ext_reset_in 120R -pinDir aux_reset_in left -pinY aux_reset_in 0L -pinDir mb_debug_sys_rst left -pinY mb_debug_sys_rst 20L -pinDir dcm_locked left -pinY dcm_locked 40L -pinDir mb_reset right -pinY mb_reset 0R -pinBusDir bus_struct_reset right -pinBusY bus_struct_reset 20R -pinBusDir peripheral_reset right -pinBusY peripheral_reset 40R -pinBusDir interconnect_aresetn right -pinBusY interconnect_aresetn 60R -pinBusDir peripheral_aresetn right -pinBusY peripheral_aresetn 80R
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 90 -y 280 -swap {1 4 2 3 0 5} -defaultsOSRD -pinBusDir In0 right -pinBusY In0 900R -pinBusDir In1 right -pinBusY In1 960R -pinBusDir In2 right -pinBusY In2 920R -pinBusDir In3 right -pinBusY In3 940R -pinBusDir In4 right -pinBusY In4 0R -pinBusDir dout right -pinBusY dout 1000R
+preplace inst CNN_ACCELERATOR -pg 1 -lvl 4 -x 1980 -y 662 -swap {0 1 2 3 4 5 6 47 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 41 35 36 37 38 39 40 7 42 43 44 45 46 34 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69} -defaultsOSRD
+preplace inst CNN_ACCELERATOR|RESULT_DATA_FIFO1 -pg 1 -lvl 4 -x 2940 -y 1132 -defaultsOSRD -pinDir S_AXIS left -pinY S_AXIS 0L -pinDir M_AXIS right -pinY M_AXIS 0R -pinDir s_axis_aresetn left -pinY s_axis_aresetn 80L -pinDir s_axis_aclk left -pinY s_axis_aclk 100L
+preplace inst CNN_ACCELERATOR|WEIGHT_FULLCON_FIFO -pg 1 -lvl 2 -x 2400 -y 692 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 15 14} -defaultsOSRD -pinDir S_AXIS left -pinY S_AXIS 0L -pinDir M_AXIS right -pinY M_AXIS 40R -pinDir s_axis_aresetn left -pinY s_axis_aresetn 40L -pinDir s_axis_aclk left -pinY s_axis_aclk 20L
+preplace inst CNN_ACCELERATOR|WEIGHT_CONV_ACT_FULLCON_FIFO -pg 1 -lvl 2 -x 2400 -y 852 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 15 14} -defaultsOSRD -pinDir S_AXIS left -pinY S_AXIS 0L -pinDir M_AXIS right -pinY M_AXIS 0R -pinDir s_axis_aresetn left -pinY s_axis_aresetn 40L -pinDir s_axis_aclk left -pinY s_axis_aclk 20L
+preplace inst CNN_ACCELERATOR|INACT_DATA_FIFO -pg 1 -lvl 2 -x 2400 -y 1032 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 15 14} -defaultsOSRD -pinDir S_AXIS left -pinY S_AXIS 0L -pinDir M_AXIS right -pinY M_AXIS 0R -pinDir s_axis_aresetn left -pinY s_axis_aresetn 40L -pinDir s_axis_aclk left -pinY s_axis_aclk 20L
+preplace inst CNN_ACCELERATOR|Windows_Data_Convert_0 -pg 1 -lvl 1 -x 2090 -y 952 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 35 32 36 33 37 34} -defaultsOSRD -pinDir m00_axis right -pinY m00_axis 80R -pinDir s00_axis left -pinY s00_axis 0L -pinDir s01_axi left -pinY s01_axi 20L -pinDir s01_axi_aclk left -pinY s01_axi_aclk 100L -pinDir s01_axi_aresetn left -pinY s01_axi_aresetn 40L -pinDir s00_axis_aclk left -pinY s00_axis_aclk 120L -pinDir s00_axis_aresetn left -pinY s00_axis_aresetn 60L -pinDir m00_axis_aclk left -pinY m00_axis_aclk 140L -pinDir m00_axis_aresetn left -pinY m00_axis_aresetn 80L
+preplace inst CNN_ACCELERATOR|CNN_Control_0 -pg 1 -lvl 3 -x 2680 -y 732 -swap {27 1 2 3 4 5 6 7 8 9 10 11 12 20 14 15 16 17 18 19 0 21 22 23 24 25 26 13 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50} -defaultsOSRD -pinDir image left -pinY image 300L -pinDir result right -pinY result 400R -pinDir weight left -pinY weight 120L -pinDir weightfc left -pinY weightfc 0L -pinDir s00_axi left -pinY s00_axi 60L -pinDir s00_axi_aclk left -pinY s00_axi_aclk 320L -pinDir s00_axi_aresetn left -pinY s00_axi_aresetn 340L -pinDir cnn_done left -pinY cnn_done 420L -pinBusDir cnn_cnt right -pinBusY cnn_cnt 420R
+preplace netloc ARESETN_1 1 1 5 320 260 N 260 1440 420 NJ 420 3650
+preplace netloc CNN_ACCELERATOR_cnn_done 1 1 3 N 280 N 280 1360
+preplace netloc M00_ARESETN_1 1 1 5 300 300 680 560 1440 480 3170 540 3610
+preplace netloc axi_dma_0_s2mm_introut 1 1 4 N 1180 760 980 1300 380 3230J
+preplace netloc axi_dma_1_mm2s_introut 1 1 2 N 1240 640
+preplace netloc axi_dma_2_mm2s_introut 1 1 2 N 1200 740
+preplace netloc axi_dma_3_mm2s_introut 1 1 2 N 1220 720
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 5 280 1260 700 1060 1400 440 3210 520 3630
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 260 1300 N
+preplace netloc xlconcat_0_dout 1 1 2 N 1280 N
+preplace netloc CNN_ACCELERATOR_M_AXIS 1 4 1 3190 660n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 5 1 N 600
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 3 1 1380 430n
+preplace netloc axi_dma_1_M_AXI_MM2S 1 3 3 1240 360 NJ 360 3650
+preplace netloc axi_dma_2_M_AXIS_MM2S 1 3 1 1420 852n
+preplace netloc axi_dma_2_M_AXI_MM2S 1 3 3 1280 460 NJ 460 NJ
+preplace netloc axi_dma_3_M_AXIS_MM2S 1 3 1 1340 680n
+preplace netloc axi_dma_3_M_AXI_MM2S 1 3 3 1340 500 NJ 500 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 3 3 1240 1444 3230 1080 3590
+preplace netloc axi_interconnect_1_M00_AXI 1 2 3 620 510 1240 600 NJ
+preplace netloc axi_interconnect_1_M01_AXI 1 2 1 700 360n
+preplace netloc axi_interconnect_1_M02_AXI 1 2 1 660 820n
+preplace netloc axi_interconnect_1_M03_AXI 1 2 1 N 620
+preplace netloc axi_interconnect_1_M04_AXI 1 2 2 620 540 1320
+preplace netloc axi_interconnect_1_M05_AXI 1 2 2 N 960 1240
+preplace netloc processing_system7_0_DDR 1 3 4 1260 340 NJ 340 NJ 340 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 3 4 1300 1344 3210J 1060 3570J 1180 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 N 1120
+preplace netloc CNN_ACCELERATOR|CNN_Control_0_cnn_done 1 0 3 NJ 1152 NJ 1152 N
+preplace netloc CNN_ACCELERATOR|s_axis_aclk_1 1 0 4 1920 872 2260 952 2540 1232 NJ
+preplace netloc CNN_ACCELERATOR|s_axis_aresetn_1 1 0 4 1940 892 2280 972 2520 1212 NJ
+preplace netloc CNN_ACCELERATOR|CNN_Control_0_result 1 3 1 N 1132
+preplace netloc CNN_ACCELERATOR|Conn1 1 4 1 N 1132
+preplace netloc CNN_ACCELERATOR|Conn2 1 0 3 NJ 792 NJ 792 N
+preplace netloc CNN_ACCELERATOR|Conn3 1 0 1 N 952
+preplace netloc CNN_ACCELERATOR|Conn4 1 0 2 NJ 812 2240
+preplace netloc CNN_ACCELERATOR|Conn5 1 0 2 NJ 852 N
+preplace netloc CNN_ACCELERATOR|Conn6 1 0 1 N 972
+preplace netloc CNN_ACCELERATOR|INACT_DATA_FIFO_M_AXIS 1 2 1 N 1032
+preplace netloc CNN_ACCELERATOR|WEIGHT_CONV_ACT_FULLCON_FIFO_M_AXIS 1 2 1 N 852
+preplace netloc CNN_ACCELERATOR|WEIGHT_FULLCON_FIFO_M_AXIS 1 2 1 N 732
+preplace netloc CNN_ACCELERATOR|Windows_Data_Convert_0_m00_axis 1 1 1 N 1032
+levelinfo -pg 1 -80 90 470 1010 1980 3400 3777 3920
+levelinfo -hier CNN_ACCELERATOR * 2090 2400 2680 2940 *
+pagesize -pg 1 -db -bbox -sgen -80 -20 4050 1460
+pagesize -hier CNN_ACCELERATOR -db -bbox -sgen 1890 632 3090 1292
+",
+   "No Loops_ScaleFactor":"0.250303",
+   "No Loops_TopLeft":"-60,-208",
+   "PinnedBlocks":"",
+   "Reduced Jogs_ScaleFactor":"0.40365",
+   "Reduced Jogs_TopLeft":"119,45",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 8 -x 4580 -y 660 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 8 -x 4580 -y 710 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 8 -x 4580 -y 600 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -x 4180 -y 790 -defaultsOSRD -resize 644 344
+preplace inst axi_interconnect_0 -pg 1 -lvl 6 -x 3670 -y 730 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -x 570 -y 730 -defaultsOSRD
+preplace inst axi_dma_result -pg 1 -lvl 5 -x 3290 -y 750 -defaultsOSRD
+preplace inst axi_dma_picture_window -pg 1 -lvl 3 -x 1000 -y 470 -defaultsOSRD
+preplace inst axi_dma_weight -pg 1 -lvl 3 -x 1000 -y 90 -defaultsOSRD
+preplace inst axi_dma_weight_full -pg 1 -lvl 3 -x 1000 -y 290 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 190 -y 890 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 570 -y 300 -swap {1 4 2 3 0 5} -defaultsOSRD
+preplace inst CNN_ACCELERATOR -pg 1 -lvl 4 -x 1560 -y 517 -defaultsOSRD -resize 349 238
+preplace inst axi_intc_0 -pg 1 -lvl 3 -x 1000 -y 860 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -x 1000 -y 680 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|RESULT_DATA_FIFO1 -pg 1 -lvl 5 -x 2790 -y 677 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|WEIGHT_FULLCON_FIFO -pg 1 -lvl 3 -x 2130 -y 507 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|WEIGHT_CONV_ACT_FULLCON_FIFO -pg 1 -lvl 3 -x 2130 -y 647 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|INACT_DATA_FIFO -pg 1 -lvl 3 -x 2130 -y 797 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|PICTURE_DATA_FIFO -pg 1 -lvl 1 -x 1550 -y 807 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|Windows_Data_Convert_0 -pg 1 -lvl 2 -x 1840 -y 777 -defaultsOSRD
+preplace inst CNN_ACCELERATOR|CNN_Control_1 -pg 1 -lvl 4 -x 2460 -y 677 -defaultsOSRD
+preplace netloc ARESETN_1 1 1 5 370 990 NJ 990 NJ 990 3090J 650 3470J
+preplace netloc CNN_ACCELERATOR_cnn_cnt_0 1 4 4 3070J 520 NJ 520 NJ 520 4550J
+preplace netloc CNN_ACCELERATOR_cnn_done 1 1 4 390 1000 NJ 1000 1180 937 3060
+preplace netloc M00_ARESETN_1 1 1 5 360 470 810 950 1210 927 3120 850 3510
+preplace netloc axi_dma_0_s2mm_introut 1 1 5 410 400 830J 560 1210J 337 NJ 337 3460
+preplace netloc axi_dma_1_mm2s_introut 1 1 3 420 410 820J 570 1170
+preplace netloc axi_dma_2_mm2s_introut 1 1 3 400 180 NJ 180 1230
+preplace netloc axi_dma_3_mm2s_introut 1 1 3 400 420 800J 580 1180
+preplace netloc axi_intc_0_irq 1 3 4 1230 950 NJ 950 NJ 950 3830J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 8 20 790 380 460 790 960 1250 960 3110 940 3490 940 3820 980 4530
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 8 10 450 NJ 450 770J 590 1200J 327 NJ 327 NJ 327 NJ 327 4540
+preplace netloc xlconcat_0_dout 1 2 1 780 300n
+preplace netloc CNN_ACCELERATOR_M_AXIS 1 4 1 3080 677n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 5 1 3480 580n
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 3 1 1220 460n
+preplace netloc axi_dma_1_M_AXI_MM2S 1 3 3 1220J 357 NJ 357 3500
+preplace netloc axi_dma_2_M_AXIS_MM2S 1 3 1 1240 80n
+preplace netloc axi_dma_2_M_AXI_MM2S 1 3 3 1260 307 NJ 307 3510J
+preplace netloc axi_dma_3_M_AXIS_MM2S 1 3 1 1230 280n
+preplace netloc axi_dma_3_M_AXI_MM2S 1 3 3 1250 317 NJ 317 3490J
+preplace netloc axi_interconnect_0_M00_AXI 1 6 1 N 730
+preplace netloc axi_interconnect_1_M00_AXI 1 2 3 720J 970 NJ 970 3100
+preplace netloc axi_interconnect_1_M01_AXI 1 2 1 760 440n
+preplace netloc axi_interconnect_1_M02_AXI 1 2 1 730 60n
+preplace netloc axi_interconnect_1_M03_AXI 1 2 1 750 260n
+preplace netloc axi_interconnect_1_M04_AXI 1 2 2 740J 760 1260
+preplace netloc axi_interconnect_1_M05_AXI 1 2 2 730J 770 1250
+preplace netloc axi_interconnect_1_M06_AXI 1 2 1 740 780n
+preplace netloc axi_interconnect_1_M07_AXI 1 2 1 830 660n
+preplace netloc processing_system7_0_DDR 1 7 1 NJ 660
+preplace netloc processing_system7_0_FIXED_IO 1 7 1 NJ 710
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 7 420 430 740J 380 1190J 347 NJ 347 NJ 347 NJ 347 4530
+preplace netloc CNN_ACCELERATOR|CNN_Control_1_cnn_cnt 1 4 2 2600 777 NJ
+preplace netloc CNN_ACCELERATOR|CNN_Control_1_cnn_done 1 4 2 2610 757 NJ
+preplace netloc CNN_ACCELERATOR|s_axis_aclk_1 1 0 5 1420 887 1670 637 2010 887 2270 787 2630J
+preplace netloc CNN_ACCELERATOR|s_axis_aresetn_1 1 0 5 1430 897 1690 647 1990 897 2280 797 2620J
+preplace netloc CNN_ACCELERATOR|CNN_Control_0_result 1 4 1 N 657
+preplace netloc CNN_ACCELERATOR|Conn1 1 5 1 N 677
+preplace netloc CNN_ACCELERATOR|Conn2 1 0 1 N 787
+preplace netloc CNN_ACCELERATOR|Conn4 1 0 3 NJ 487 NJ 487 N
+preplace netloc CNN_ACCELERATOR|Conn5 1 0 3 NJ 627 NJ 627 N
+preplace netloc CNN_ACCELERATOR|Conn6 1 0 2 NJ 727 N
+preplace netloc CNN_ACCELERATOR|INACT_DATA_FIFO_M_AXIS 1 3 1 2250 627n
+preplace netloc CNN_ACCELERATOR|PICTURE_DATA_FIFO_M_AXIS 1 1 1 1680 707n
+preplace netloc CNN_ACCELERATOR|WEIGHT_CONV_ACT_FULLCON_FIFO_M_AXIS 1 3 1 N 647
+preplace netloc CNN_ACCELERATOR|WEIGHT_FULLCON_FIFO_M_AXIS 1 3 1 2280 507n
+preplace netloc CNN_ACCELERATOR|Windows_Data_Convert_0_m00_axis 1 2 1 N 777
+preplace netloc CNN_ACCELERATOR|s00_axi_1 1 0 4 NJ 427 NJ 427 2000J 877 2260
+levelinfo -pg 1 -10 190 570 1000 1560 3290 3670 4180 4580
+levelinfo -hier CNN_ACCELERATOR * 1550 1840 2130 2460 2790 *
+pagesize -pg 1 -db -bbox -sgen -10 0 4710 1250
+pagesize -hier CNN_ACCELERATOR -db -bbox -sgen 1390 407 2940 907
+"
+}
+{
+   "da_axi4_cnt":"6",
+   "da_clkrst_cnt":"6"
+}

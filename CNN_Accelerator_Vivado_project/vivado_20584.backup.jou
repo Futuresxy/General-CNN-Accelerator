@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Apr 29 21:54:10 2024
+# Process ID: 20584
+# Current directory: E:/Accelerator/Accelerator_100M
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7356 E:\Accelerator\Accelerator_100M\Accelerator.xpr
+# Log file: E:/Accelerator/Accelerator_100M/vivado.log
+# Journal file: E:/Accelerator/Accelerator_100M\vivado.jou
+# Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Accelerator/Accelerator_100M/Accelerator.xpr
+update_compile_order -fileset sources_1

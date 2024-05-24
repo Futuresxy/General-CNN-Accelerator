@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CNN_Accelerator_system_Test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CNN_Accelerator_system_Test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="14.335000 us"></ZoomStartTime>
+      <ZoomEndTime time="26.965001 us"></ZoomEndTime>
+      <Cursor1Time time="16.440000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="270"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/CNN_Accelerator_system_Test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/scaler" type="array">
+      <obj_property name="ElementShortName">scaler[7:0]</obj_property>
+      <obj_property name="ObjectShortName">scaler[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/scalel" type="array">
+      <obj_property name="ElementShortName">scalel[7:0]</obj_property>
+      <obj_property name="ObjectShortName">scalel[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/image_tvalid" type="logic">
+      <obj_property name="ElementShortName">image_tvalid</obj_property>
+      <obj_property name="ObjectShortName">image_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/image_tlast" type="logic">
+      <obj_property name="ElementShortName">image_tlast</obj_property>
+      <obj_property name="ObjectShortName">image_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/image_tready" type="logic">
+      <obj_property name="ElementShortName">image_tready</obj_property>
+      <obj_property name="ObjectShortName">image_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/image_tdata" type="array">
+      <obj_property name="ElementShortName">image_tdata[199:0]</obj_property>
+      <obj_property name="ObjectShortName">image_tdata[199:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/image_tkeep" type="array">
+      <obj_property name="ElementShortName">image_tkeep[24:0]</obj_property>
+      <obj_property name="ObjectShortName">image_tkeep[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/image_tstrb" type="array">
+      <obj_property name="ElementShortName">image_tstrb[24:0]</obj_property>
+      <obj_property name="ObjectShortName">image_tstrb[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weight_tvalid" type="logic">
+      <obj_property name="ElementShortName">weight_tvalid</obj_property>
+      <obj_property name="ObjectShortName">weight_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weight_tlast" type="logic">
+      <obj_property name="ElementShortName">weight_tlast</obj_property>
+      <obj_property name="ObjectShortName">weight_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weight_tready" type="logic">
+      <obj_property name="ElementShortName">weight_tready</obj_property>
+      <obj_property name="ObjectShortName">weight_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weight_tdata" type="array">
+      <obj_property name="ElementShortName">weight_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weight_tkeep" type="array">
+      <obj_property name="ElementShortName">weight_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weight_tstrb" type="array">
+      <obj_property name="ElementShortName">weight_tstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_tstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weightfc_tvalid" type="logic">
+      <obj_property name="ElementShortName">weightfc_tvalid</obj_property>
+      <obj_property name="ObjectShortName">weightfc_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weightfc_tlast" type="logic">
+      <obj_property name="ElementShortName">weightfc_tlast</obj_property>
+      <obj_property name="ObjectShortName">weightfc_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weightfc_tready" type="logic">
+      <obj_property name="ElementShortName">weightfc_tready</obj_property>
+      <obj_property name="ObjectShortName">weightfc_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weightfc_tdata" type="array">
+      <obj_property name="ElementShortName">weightfc_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">weightfc_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weightfc_tkeep" type="array">
+      <obj_property name="ElementShortName">weightfc_tkeep[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weightfc_tkeep[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/weightfc_tstrb" type="array">
+      <obj_property name="ElementShortName">weightfc_tstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weightfc_tstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tready" type="logic">
+      <obj_property name="ElementShortName">result_tready</obj_property>
+      <obj_property name="ObjectShortName">result_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tlast" type="logic">
+      <obj_property name="ElementShortName">result_tlast</obj_property>
+      <obj_property name="ObjectShortName">result_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tvalid" type="logic">
+      <obj_property name="ElementShortName">result_tvalid</obj_property>
+      <obj_property name="ObjectShortName">result_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tdata" type="array">
+      <obj_property name="ElementShortName">result_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">result_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tkeep" type="array">
+      <obj_property name="ElementShortName">result_tkeep[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_tkeep[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tstrb" type="array">
+      <obj_property name="ElementShortName">result_tstrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_tstrb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/cnn_done" type="logic">
+      <obj_property name="ElementShortName">cnn_done</obj_property>
+      <obj_property name="ObjectShortName">cnn_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/cnn_cnt" type="array">
+      <obj_property name="ElementShortName">cnn_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnn_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/CONV_Outsum" type="array">
+      <obj_property name="ElementShortName">CONV_Outsum[255:0]</obj_property>
+      <obj_property name="ObjectShortName">CONV_Outsum[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_system_Test/CNN_Accelerator_00/CONV_Outsum_Valid" type="logic">
+      <obj_property name="ElementShortName">CONV_Outsum_Valid</obj_property>
+      <obj_property name="ObjectShortName">CONV_Outsum_Valid</obj_property>
+   </wvobject>
+</wave_config>

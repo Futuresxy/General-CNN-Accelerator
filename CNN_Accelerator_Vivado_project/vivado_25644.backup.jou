@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Apr 13 15:53:03 2024
+# Process ID: 25644
+# Current directory: E:/Accelerator/Accelerator_time
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19208 E:\Accelerator\Accelerator_time\Accelerator.xpr
+# Log file: E:/Accelerator/Accelerator_time/vivado.log
+# Journal file: E:/Accelerator/Accelerator_time\vivado.jou
+# Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Accelerator/Accelerator_time/Accelerator.xpr
+update_compile_order -fileset sources_1
+create_ip -name div_gen -vendor xilinx.com -library ip -version 5.1 -module_name div_gen_1
+set_property -dict [list CONFIG.divisor_width {8} CONFIG.FlowControl {NonBlocking} CONFIG.latency_configuration {Manual} CONFIG.latency {0} CONFIG.fractional_width {8}] [get_ips div_gen_1]
+generate_target {instantiation_template} [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+generate_target all [get_files  e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+catch { config_ip_cache -export [get_ips -all div_gen_1] }
+export_ip_user_files -of_objects [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+launch_runs div_gen_1_synth_1 -jobs 8
+wait_on_run div_gen_1_synth_1
+export_simulation -of_objects [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci] -directory E:/Accelerator/Accelerator_time/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/Accelerator_time/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/Accelerator_time/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files E:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+launch_simulation
+update_module_reference Accelerator_block_design_CNN_Control_1_0
+export_ip_user_files -of_objects  [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci] -no_script -reset -force -quiet
+remove_files  -fileset div_gen_1 e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci
+file delete -force e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1
+file delete -force e:/Accelerator/Accelerator_time/Accelerator.gen/sources_1/ip/div_gen_1
+close_bd_design [get_bd_designs Accelerator_block_design]
+create_ip -name div_gen -vendor xilinx.com -library ip -version 5.1 -module_name div_gen_1
+set_property -dict [list CONFIG.divisor_width {8} CONFIG.latency_configuration {Manual} CONFIG.latency {0} CONFIG.fractional_width {8}] [get_ips div_gen_1]
+generate_target {instantiation_template} [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+generate_target all [get_files  e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+catch { config_ip_cache -export [get_ips -all div_gen_1] }
+export_ip_user_files -of_objects [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+export_simulation -of_objects [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci] -directory E:/Accelerator/Accelerator_time/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/Accelerator_time/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/Accelerator_time/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+generate_target all [get_files  e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+export_ip_user_files -of_objects [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci] -directory E:/Accelerator/Accelerator_time/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/Accelerator_time/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/Accelerator_time/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/Accelerator_time/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_module_reference Accelerator_block_design_CNN_Control_1_0
+update_module_reference Accelerator_block_design_CNN_Control_1_0
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files E:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+generate_target Simulation [get_files e:/Accelerator/Accelerator_time/Accelerator.srcs/sources_1/ip/div_gen_1/div_gen_1.xci]
+launch_simulation
+open_wave_config E:/Accelerator/Accelerator_time/Accelerator.srcs/sim_1/imports/behav/window_tb/window_tb_behav.wcfg
+open_wave_config E:/Accelerator/Accelerator_time/Accelerator.srcs/sim_1/imports/behav/cnn/CNN_Accelerator_tb_behav.wcfg
+open_wave_config E:/Accelerator/Accelerator_time/Accelerator.srcs/sim_1/imports/behav/conv/conv_tb_behav.wcfg
+open_wave_config E:/Accelerator/Accelerator_time/Accelerator.srcs/sim_1/imports/behav/window_tb/windows_data_axi_test_behav.wcfg
+open_wave_config E:/Accelerator/Accelerator_time/Accelerator.srcs/sim_1/imports/CNN_System_tb/CNN_Accelerator_system_Test_behav.wcfg
+source CNN_Accelerator_system_Test.tcl
+run all
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tready}} {{/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tvalid}} {{/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tlast}} {{/CNN_Accelerator_system_Test/CNN_Accelerator_00/result_tdata}} 
+relaunch_sim

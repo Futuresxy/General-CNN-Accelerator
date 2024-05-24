@@ -1,0 +1,184 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu May 23 23:07:44 2024
+# Process ID: 1444
+# Current directory: E:/Accelerator/CNN_Accelerator_Vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15792 E:\Accelerator\CNN_Accelerator_Vivado_project\Accelerator.xpr
+# Log file: E:/Accelerator/CNN_Accelerator_Vivado_project/vivado.log
+# Journal file: E:/Accelerator/CNN_Accelerator_Vivado_project\vivado.jou
+# Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/AXI4-LITE_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/AXI4-LITE_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/myip_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_package_rtl/CNN_Control'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/IP_design/CNN_Control/CNN_Control_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/myip_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/IP_design/Windows_Data_Convert_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/Accelerator_Control_1.0'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/AXI4-LITE_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/ip_repo/AXI4-LITE_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/AXI4-LITE_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_package_rtl/CNN_Control'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/IP_design/CNN_Control/CNN_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/IP_design/Windows_Data_Convert_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Digital_IC_design/dpu_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:21 . Memory (MB): peak = 1602.742 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+Reading block design file <E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_result
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_picture_window
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_picture_window/M_AXIS_MM2S. Setting parameter on /axi_dma_picture_window/M_AXIS_MM2S failed
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_weight
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_weight/M_AXIS_MM2S. Setting parameter on /axi_dma_weight/M_AXIS_MM2S failed
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_weight_full
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_weight_full/M_AXIS_MM2S. Setting parameter on /axi_dma_weight_full/M_AXIS_MM2S failed
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - RESULT_DATA_FIFO1
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - WEIGHT_FULLCON_FIFO
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - WEIGHT_CONV_ACT_FULLCON_FIFO
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - INACT_DATA_FIFO
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - PICTURE_DATA_FIFO
+Adding component instance block -- xilinx.com:module_ref:Windows_Data_Convert_v1_0:1.0 - Windows_Data_Convert_0
+Adding component instance block -- xilinx.com:module_ref:CNN_Control:1.0 - CNN_Control_1
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Successfully read diagram <Accelerator_block_design> from block design file <E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd>
+open_bd_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1602.742 ; gain = 0.000
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+set_property location {4 1727 665} [get_bd_cells axi_gpio_0]
+set_property -dict [list CONFIG.C_GPIO_WIDTH {1} CONFIG.C_ALL_INPUTS {1} CONFIG.C_INTERRUPT_PRESENT {1}] [get_bd_cells axi_gpio_0]
+connect_bd_net [get_bd_pins axi_gpio_0/gpio_io_i] [get_bd_pins CNN_ACCELERATOR/cnn_done]
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_0/gpio_io_i> is being overridden by the user with net </CNN_ACCELERATOR_cnn_done>. This pin will not be connected as a part of interface connection <GPIO>.
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_interconnect_1/M07_AXI] [get_bd_intf_pins axi_gpio_0/S_AXI]
+connect_bd_net [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0]
+connect_bd_net [get_bd_pins axi_gpio_0/s_axi_aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+save_bd_design
+Wrote  : <E:\Accelerator\CNN_Accelerator_Vivado_project\Accelerator.srcs\sources_1\bd\Accelerator_block_design\Accelerator_block_design.bd> 
+Wrote  : <E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+assign_bd_address
+Slave segment '/axi_gpio_0/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x4120_0000 [ 64K ]>.
+validate_bd_design
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+CRITICAL WARNING: [BD 41-967] AXI interface pin /CNN_ACCELERATOR/CNN_Control_1/image is not associated to any clock pin. It may not work correctly.
+CRITICAL WARNING: [BD 41-967] AXI interface pin /CNN_ACCELERATOR/CNN_Control_1/weight is not associated to any clock pin. It may not work correctly.
+CRITICAL WARNING: [BD 41-967] AXI interface pin /CNN_ACCELERATOR/CNN_Control_1/weightfc is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_S_AXI_ACLK_FREQ_MHZ(100.0) on '/axi_intc_0' with propagated value(50.0). Command ignored
+WARNING: [xilinx.com:ip:axi_intc:4.1-7] /axi_intc_0: Interrupts type manual value (0xFFFFFFFF) does not match computed value (0xFFFFFFF0). Please review the manual value or consider using Auto instead.
+validate_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1671.930 ; gain = 16.395
+reset_run Accelerator_block_design_processing_system7_0_0_synth_1
+save_bd_design
+Wrote  : <E:\Accelerator\CNN_Accelerator_Vivado_project\Accelerator.srcs\sources_1\bd\Accelerator_block_design\Accelerator_block_design.bd> 
+Wrote  : <E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/Accelerator/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp with file E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.runs/synth_1/Accelerator_block_design_wrapper.dcp
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci' is already up-to-date
+INFO: [BD 41-1662] The design 'Accelerator_block_design.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/ui/bd_ab2a7024.ui> 
+Verilog Output written to : e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/synth/Accelerator_block_design.v
+Verilog Output written to : e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/sim/Accelerator_block_design.v
+Verilog Output written to : e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/hdl/Accelerator_block_design_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_s00_data_fifo_0/Accelerator_block_design_s00_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/s00_data_fifo .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_ds_1/Accelerator_block_design_auto_ds_1_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_us_0/Accelerator_block_design_auto_us_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_ds_0/Accelerator_block_design_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_pc_0/Accelerator_block_design_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/ip/Accelerator_block_design_auto_pc_1/Accelerator_block_design_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_couplers/auto_pc .
+Exporting to file e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/hw_handoff/Accelerator_block_design.hwh
+Generated Hardware Definition File e:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/Accelerator_block_design/synth/Accelerator_block_design.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin image could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin result could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin weight could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+WARNING: [BD 41-2265] Clock pin for protocol instance pin weightfc could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /CNN_ACCELERATOR/CNN_Control_1
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_ds_0, cache-ID = 54b9edd7788406d3; cache size = 1392.595 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_ds_1, cache-ID = 80d89f872afb5bf6; cache size = 1392.595 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_pc_0, cache-ID = 81e16e67b40e7abf; cache size = 1392.595 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_pc_1, cache-ID = e724e0b0bf1cf8c4; cache size = 1392.595 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_auto_us_0, cache-ID = 38046c7b7941a505; cache size = 1392.595 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_axi_gpio_0_0, cache-ID = 8ace88efad5bc38e; cache size = 1392.595 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Accelerator_block_design_s00_data_fifo_0, cache-ID = d8271c2434b30b6f; cache size = 1392.595 MB.
+[Thu May 23 23:14:34 2024] Launched Accelerator_block_design_processing_system7_0_0_synth_1...
+Run output will be captured here: E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.runs/Accelerator_block_design_processing_system7_0_0_synth_1/runme.log
+[Thu May 23 23:14:34 2024] Launched synth_1...
+Run output will be captured here: E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1944.934 ; gain = 273.004
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci' is already up-to-date
+[Thu May 23 23:17:05 2024] Launched impl_1...
+Run output will be captured here: E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci' is already up-to-date
+[Thu May 23 23:26:43 2024] Launched impl_1...
+Run output will be captured here: E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 23 23:29:18 2024...

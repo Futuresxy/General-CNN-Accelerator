@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri May 24 19:01:40 2024
+# Process ID: 17480
+# Current directory: E:/Accelerator/CNN_Accelerator_Vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19424 E:\Accelerator\CNN_Accelerator_Vivado_project\Accelerator.xpr
+# Log file: E:/Accelerator/CNN_Accelerator_Vivado_project/vivado.log
+# Journal file: E:/Accelerator/CNN_Accelerator_Vivado_project\vivado.jou
+# Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:18 . Memory (MB): peak = 1667.996 ; gain = 0.000
+reset_project
+reset_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1667.996 ; gain = 0.000
+update_compile_order -fileset sources_1
+write_project_tcl -all_properties -use_bd_files {E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.tcl}
+INFO: [Vivado-projutils-8] Tcl script 'Accelerator.tcl' generated in output directory 'E:/Accelerator/CNN_Accelerator_Vivado_project'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set wth respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source Accelerator.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 24 19:05:16 2024...
