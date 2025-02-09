@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CNN_Module_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CNN_Module_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="390.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,910.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,690.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="405"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s00_axis_aclk" type="logic">
+      <obj_property name="ElementShortName">s00_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s00_axis_aresetn" type="logic">
+      <obj_property name="ElementShortName">s00_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s00_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s00_axis_tstrb" type="array">
+      <obj_property name="ElementShortName">s00_axis_tstrb[0:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tstrb[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s00_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis_aclk" type="logic">
+      <obj_property name="ElementShortName">m00_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis_aresetn" type="logic">
+      <obj_property name="ElementShortName">m00_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m00_axis_tdata[199:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tdata[199:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis_tstrb" type="array">
+      <obj_property name="ElementShortName">m00_axis_tstrb[24:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tstrb[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m00_axis_tkeep[24:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tkeep[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/S_AXIS2_tdata" type="array">
+      <obj_property name="ElementShortName">S_AXIS2_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS2_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/S_AXIS2_tkeep" type="array">
+      <obj_property name="ElementShortName">S_AXIS2_tkeep[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS2_tkeep[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/S_AXIS2_tlast" type="logic">
+      <obj_property name="ElementShortName">S_AXIS2_tlast</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS2_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/S_AXIS2_tready" type="logic">
+      <obj_property name="ElementShortName">S_AXIS2_tready</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS2_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Module_tb/S_AXIS2_tvalid" type="logic">
+      <obj_property name="ElementShortName">S_AXIS2_tvalid</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS2_tvalid</obj_property>
+   </wvobject>
+</wave_config>

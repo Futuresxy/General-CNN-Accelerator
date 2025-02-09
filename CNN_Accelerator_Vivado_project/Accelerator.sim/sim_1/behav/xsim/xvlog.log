@@ -1,0 +1,152 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Accelerator
+WARNING: [VRFC 10-2938] 'CONV_Load_Act' is already implicitly declared on line 170 [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:275]
+WARNING: [VRFC 10-3380] identifier 'CONV_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:122]
+WARNING: [VRFC 10-3380] identifier 'CONV_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:127]
+WARNING: [VRFC 10-3380] identifier 'CONV_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:130]
+WARNING: [VRFC 10-3380] identifier 'CONV_Weight' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:140]
+WARNING: [VRFC 10-3380] identifier 'CONV_Weight' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:144]
+WARNING: [VRFC 10-3380] identifier 'CONV_Weight' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:146]
+WARNING: [VRFC 10-3380] identifier 'CONV_State' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:170]
+WARNING: [VRFC 10-3380] identifier 'CONV_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:181]
+WARNING: [VRFC 10-3380] identifier 'CONV_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:183]
+WARNING: [VRFC 10-3380] identifier 'CONV_Image_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:184]
+WARNING: [VRFC 10-3380] identifier 'CONV_Weight_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:185]
+WARNING: [VRFC 10-3380] identifier 'CONV_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:199]
+WARNING: [VRFC 10-3380] identifier 'CONV_Weight_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:209]
+WARNING: [VRFC 10-3380] identifier 'CONV_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:210]
+WARNING: [VRFC 10-3380] identifier 'CONV_Weight_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:214]
+WARNING: [VRFC 10-3380] identifier 'CONV_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:215]
+WARNING: [VRFC 10-3380] identifier 'CONV_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:224]
+WARNING: [VRFC 10-3380] identifier 'CONV_Image_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:232]
+WARNING: [VRFC 10-3380] identifier 'CONV_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:236]
+WARNING: [VRFC 10-3380] identifier 'CONV_Image_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:237]
+WARNING: [VRFC 10-3380] identifier 'CONV_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:241]
+WARNING: [VRFC 10-3380] identifier 'CONV_Finish' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:242]
+WARNING: [VRFC 10-3380] identifier 'CONV_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:262]
+WARNING: [VRFC 10-3380] identifier 'CONV_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:266]
+WARNING: [VRFC 10-3380] identifier 'CONV_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:268]
+WARNING: [VRFC 10-3380] identifier 'POOL_Image_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:283]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Act_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:285]
+WARNING: [VRFC 10-3380] identifier 'RELU_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:318]
+WARNING: [VRFC 10-3380] identifier 'RELU_Only_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:319]
+WARNING: [VRFC 10-3380] identifier 'RELU_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:320]
+WARNING: [VRFC 10-3380] identifier 'RELU_Only_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:321]
+WARNING: [VRFC 10-3380] identifier 'RELU_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:325]
+WARNING: [VRFC 10-3380] identifier 'RELU_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:326]
+WARNING: [VRFC 10-3380] identifier 'RELU_Only_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:329]
+WARNING: [VRFC 10-3380] identifier 'RELU_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:330]
+WARNING: [VRFC 10-3380] identifier 'RELU_Only_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:332]
+WARNING: [VRFC 10-3380] identifier 'RELU_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:333]
+WARNING: [VRFC 10-3380] identifier 'RELU_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:336]
+WARNING: [VRFC 10-3380] identifier 'RELU_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:337]
+WARNING: [VRFC 10-3380] identifier 'RELU_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:347]
+WARNING: [VRFC 10-3380] identifier 'RELU_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:351]
+WARNING: [VRFC 10-3380] identifier 'RELU_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:353]
+WARNING: [VRFC 10-3380] identifier 'RELU_In_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:359]
+WARNING: [VRFC 10-3380] identifier 'RELU_In_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:362]
+WARNING: [VRFC 10-3380] identifier 'RELU_Finish' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:368]
+WARNING: [VRFC 10-3380] identifier 'RELU_Finish' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:372]
+WARNING: [VRFC 10-3380] identifier 'RELU_Finish' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:375]
+WARNING: [VRFC 10-3380] identifier 'POOL_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:418]
+WARNING: [VRFC 10-3380] identifier 'POOL_Image_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:419]
+WARNING: [VRFC 10-3380] identifier 'POOL_Image_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:424]
+WARNING: [VRFC 10-3380] identifier 'POOL_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:434]
+WARNING: [VRFC 10-3380] identifier 'POOL_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:441]
+WARNING: [VRFC 10-3380] identifier 'POOL_Image_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:442]
+WARNING: [VRFC 10-3380] identifier 'POOL_Image_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:445]
+WARNING: [VRFC 10-3380] identifier 'POOL_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:447]
+WARNING: [VRFC 10-3380] identifier 'POOL_Finish' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:450]
+WARNING: [VRFC 10-3380] identifier 'POOL_Max_MeanValid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:467]
+WARNING: [VRFC 10-3380] identifier 'POOL_Max_MeanValid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:471]
+WARNING: [VRFC 10-3380] identifier 'POOL_Max_MeanValid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:474]
+WARNING: [VRFC 10-3380] identifier 'POOL_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:483]
+WARNING: [VRFC 10-3380] identifier 'POOL_Start_Control' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:486]
+WARNING: [VRFC 10-3380] identifier 'POOL_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:488]
+WARNING: [VRFC 10-3380] identifier 'POOL_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:491]
+WARNING: [VRFC 10-3380] identifier 'POOL_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:500]
+WARNING: [VRFC 10-3380] identifier 'POOL_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:504]
+WARNING: [VRFC 10-3380] identifier 'POOL_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:506]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Act_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:560]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Weight_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:561]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Act_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:581]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Weight_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:582]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Act_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:586]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Weight_Ready' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:587]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Finish' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:591]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:608]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Weight' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:609]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:614]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Weight' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:615]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Act' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:618]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Weight' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:619]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:627]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:632]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:635]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:641]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:645]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:649]
+WARNING: [VRFC 10-3380] identifier 'FULLCON_Refresh' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Accelerator.v:651]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Control_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Control_v1_0_S00_AXI
+WARNING: [VRFC 10-8497] literal value 'h8 truncated to fit in 3 bits [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Control_S00_AXI.v:370]
+WARNING: [VRFC 10-8497] literal value 'h9 truncated to fit in 3 bits [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Control_S00_AXI.v:377]
+WARNING: [VRFC 10-8497] literal value 'h8 truncated to fit in 3 bits [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Control_S00_AXI.v:511]
+WARNING: [VRFC 10-8497] literal value 'h9 truncated to fit in 3 bits [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Control_S00_AXI.v:512]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Conv_Array_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_Array_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Conv_PE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_PE
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Conv_SystolicArray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conv_SystolicArray
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/FullCon_PE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullCon_PE
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/FullCon_PE_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullCon_PE_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Pool_PE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pool_PE
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Pooling_Array_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pooling_Array_Control
+WARNING: [VRFC 10-3380] identifier 'Pool_out_valid' is used before its declaration [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Pooling_Array_Control.v:67]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Pooling_SystolicArray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pooling_SystolicArray
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Pooling_SystolicArray.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Relu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/Relu_Array_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Relu_Array_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/new/CNN_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_M00_AXIS
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S01_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/imports/window_ip/windows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module windows
+WARNING: [VRFC 10-2938] 'divider_out_valid' is already implicitly declared on line 112 [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/imports/window_ip/windows.v:115]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/imports/window_ip/windows.v:167]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_CNN_Control_1_0/sim/CNN_Module_CNN_Control_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_CNN_Control_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_INACT_DATA_FIFO_0/sim/CNN_Module_INACT_DATA_FIFO_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_INACT_DATA_FIFO_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_PICTURE_DATA_FIFO_0/sim/CNN_Module_PICTURE_DATA_FIFO_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_PICTURE_DATA_FIFO_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_RESULT_DATA_FIFO1_0/sim/CNN_Module_RESULT_DATA_FIFO1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_RESULT_DATA_FIFO1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_WEIGHT_CONV_ACT_FULLCON_FIFO_0/sim/CNN_Module_WEIGHT_CONV_ACT_FULLCON_FIFO_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_WEIGHT_CONV_ACT_FULLCON_FIFO_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_WEIGHT_FULLCON_FIFO_0/sim/CNN_Module_WEIGHT_FULLCON_FIFO_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_WEIGHT_FULLCON_FIFO_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_Windows_Data_Convert_0_0/sim/CNN_Module_Windows_Data_Convert_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_Windows_Data_Convert_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/bd/CNN_Module/sim/CNN_Module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/CNN_Module/hdl/CNN_Module_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/new/CNN_Module_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_Module_tb

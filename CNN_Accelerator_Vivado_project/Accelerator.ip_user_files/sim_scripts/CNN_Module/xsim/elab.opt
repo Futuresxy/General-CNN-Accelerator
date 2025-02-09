@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt auto -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CNN_Module xil_defaultlib.CNN_Module xil_defaultlib.glbl -log elaborate.log

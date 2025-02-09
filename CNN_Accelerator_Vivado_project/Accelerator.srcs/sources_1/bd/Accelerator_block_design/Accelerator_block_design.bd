@@ -7,8 +7,7 @@
       "name": "Accelerator_block_design",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2022.1",
-      "validated": "true"
+      "tool_version": "2022.1"
     },
     "design_tree": {
       "processing_system7_0": "",
@@ -64,68 +63,12 @@
       "DDR_0": {
         "mode": "Master",
         "vlnv_bus_definition": "xilinx.com:interface:ddrx:1.0",
-        "vlnv": "xilinx.com:interface:ddrx_rtl:1.0",
-        "parameters": {
-          "AXI_ARBITRATION_SCHEME": {
-            "value": "TDM",
-            "value_src": "default"
-          },
-          "BURST_LENGTH": {
-            "value": "8",
-            "value_src": "default"
-          },
-          "CAN_DEBUG": {
-            "value": "false",
-            "value_src": "default"
-          },
-          "CAS_LATENCY": {
-            "value": "11",
-            "value_src": "default"
-          },
-          "CAS_WRITE_LATENCY": {
-            "value": "11",
-            "value_src": "default"
-          },
-          "CS_ENABLED": {
-            "value": "true",
-            "value_src": "default"
-          },
-          "DATA_MASK_ENABLED": {
-            "value": "true",
-            "value_src": "default"
-          },
-          "DATA_WIDTH": {
-            "value": "8",
-            "value_src": "default"
-          },
-          "MEMORY_TYPE": {
-            "value": "COMPONENTS",
-            "value_src": "default"
-          },
-          "MEM_ADDR_MAP": {
-            "value": "ROW_COLUMN_BANK",
-            "value_src": "default"
-          },
-          "SLOT": {
-            "value": "Single",
-            "value_src": "default"
-          },
-          "TIMEPERIOD_PS": {
-            "value": "1250",
-            "value_src": "default"
-          }
-        }
+        "vlnv": "xilinx.com:interface:ddrx_rtl:1.0"
       },
       "FIXED_IO_0": {
         "mode": "Master",
         "vlnv_bus_definition": "xilinx.com:display_processing_system7:fixedio:1.0",
-        "vlnv": "xilinx.com:display_processing_system7:fixedio_rtl:1.0",
-        "parameters": {
-          "CAN_DEBUG": {
-            "value": "false",
-            "value_src": "default"
-          }
-        }
+        "vlnv": "xilinx.com:display_processing_system7:fixedio_rtl:1.0"
       }
     },
     "ports": {
@@ -3418,14 +3361,6 @@
                   "HAS_TLAST": {
                     "value": "1",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000",
-                    "value_src": "user_prop"
-                  },
-                  "CLK_DOMAIN": {
-                    "value": "Accelerator_block_design_processing_system7_0_0_FCLK_CLK0",
-                    "value_src": "default_prop"
                   }
                 },
                 "port_maps": {
@@ -3497,14 +3432,6 @@
                   "HAS_TLAST": {
                     "value": "1",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000",
-                    "value_src": "user_prop"
-                  },
-                  "CLK_DOMAIN": {
-                    "value": "Accelerator_block_design_processing_system7_0_0_FCLK_CLK0",
-                    "value_src": "default_prop"
                   }
                 },
                 "port_maps": {
@@ -3546,10 +3473,6 @@
                   "PROTOCOL": {
                     "value": "AXI4LITE",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000",
-                    "value_src": "user_prop"
                   },
                   "ID_WIDTH": {
                     "value": "0",
@@ -3634,10 +3557,6 @@
                   "MAX_BURST_LENGTH": {
                     "value": "1",
                     "value_src": "auto"
-                  },
-                  "CLK_DOMAIN": {
-                    "value": "Accelerator_block_design_processing_system7_0_0_FCLK_CLK0",
-                    "value_src": "default_prop"
                   }
                 },
                 "memory_map_ref": "s01_axi",
@@ -3751,14 +3670,6 @@
                   "ASSOCIATED_RESET": {
                     "value": "s01_axi_aresetn",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000",
-                    "value_src": "user_prop"
-                  },
-                  "CLK_DOMAIN": {
-                    "value": "Accelerator_block_design_processing_system7_0_0_FCLK_CLK0",
-                    "value_src": "default_prop"
                   }
                 }
               },
@@ -3783,14 +3694,6 @@
                   "ASSOCIATED_RESET": {
                     "value": "s00_axis_aresetn",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000",
-                    "value_src": "user_prop"
-                  },
-                  "CLK_DOMAIN": {
-                    "value": "Accelerator_block_design_processing_system7_0_0_FCLK_CLK0",
-                    "value_src": "default_prop"
                   }
                 }
               },
@@ -3815,14 +3718,6 @@
                   "ASSOCIATED_RESET": {
                     "value": "m00_axis_aresetn",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000",
-                    "value_src": "user_prop"
-                  },
-                  "CLK_DOMAIN": {
-                    "value": "Accelerator_block_design_processing_system7_0_0_FCLK_CLK0",
-                    "value_src": "default_prop"
                   }
                 }
               },
@@ -3905,9 +3800,6 @@
                   "HAS_TLAST": {
                     "value": "1",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000"
                   }
                 },
                 "port_maps": {
@@ -4053,9 +3945,6 @@
                   "HAS_TLAST": {
                     "value": "1",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000"
                   }
                 },
                 "port_maps": {
@@ -4127,9 +4016,6 @@
                   "HAS_TLAST": {
                     "value": "1",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000"
                   }
                 },
                 "port_maps": {
@@ -4177,10 +4063,6 @@
                   "PROTOCOL": {
                     "value": "AXI4LITE",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000",
-                    "value_src": "user_prop"
                   },
                   "ID_WIDTH": {
                     "value": "0",
@@ -4265,10 +4147,6 @@
                   "MAX_BURST_LENGTH": {
                     "value": "1",
                     "value_src": "auto"
-                  },
-                  "CLK_DOMAIN": {
-                    "value": "Accelerator_block_design_processing_system7_0_0_FCLK_CLK0",
-                    "value_src": "default_prop"
                   }
                 },
                 "memory_map_ref": "s00_axi",
@@ -4382,14 +4260,6 @@
                   "ASSOCIATED_RESET": {
                     "value": "s00_axi_aresetn",
                     "value_src": "constant"
-                  },
-                  "FREQ_HZ": {
-                    "value": "50000000",
-                    "value_src": "user_prop"
-                  },
-                  "CLK_DOMAIN": {
-                    "value": "Accelerator_block_design_processing_system7_0_0_FCLK_CLK0",
-                    "value_src": "default_prop"
                   }
                 }
               },

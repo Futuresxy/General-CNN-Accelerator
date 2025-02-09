@@ -1,0 +1,13 @@
+verilog xil_defaultlib --include "F:/Xilinx/Vivado/2022.1/data/xilinx_vip/include" --include "../../../../Accelerator.gen/sources_1/bd/CNN_Module/ipshared/8713/hdl" \
+"../../../bd/CNN_Module/ip/CNN_Module_CNN_Control_1_0/sim/CNN_Module_CNN_Control_1_0.v" \
+"../../../bd/CNN_Module/ip/CNN_Module_INACT_DATA_FIFO_0/sim/CNN_Module_INACT_DATA_FIFO_0.v" \
+"../../../bd/CNN_Module/ip/CNN_Module_PICTURE_DATA_FIFO_0/sim/CNN_Module_PICTURE_DATA_FIFO_0.v" \
+"../../../bd/CNN_Module/ip/CNN_Module_RESULT_DATA_FIFO1_0/sim/CNN_Module_RESULT_DATA_FIFO1_0.v" \
+"../../../bd/CNN_Module/ip/CNN_Module_WEIGHT_CONV_ACT_FULLCON_FIFO_0/sim/CNN_Module_WEIGHT_CONV_ACT_FULLCON_FIFO_0.v" \
+"../../../bd/CNN_Module/ip/CNN_Module_WEIGHT_FULLCON_FIFO_0/sim/CNN_Module_WEIGHT_FULLCON_FIFO_0.v" \
+"../../../bd/CNN_Module/ip/CNN_Module_Windows_Data_Convert_0_0/sim/CNN_Module_Windows_Data_Convert_0_0.v" \
+"../../../bd/CNN_Module/sim/CNN_Module.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

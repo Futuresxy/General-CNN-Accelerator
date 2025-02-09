@@ -2,16 +2,195 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Fri May 24 19:01:40 2024
-# Process ID: 17480
-# Current directory: E:/Accelerator/CNN_Accelerator_Vivado_project
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19424 E:\Accelerator\CNN_Accelerator_Vivado_project\Accelerator.xpr
-# Log file: E:/Accelerator/CNN_Accelerator_Vivado_project/vivado.log
-# Journal file: E:/Accelerator/CNN_Accelerator_Vivado_project\vivado.jou
+# Start of session at: Sat Feb  8 01:42:01 2025
+# Process ID: 12020
+# Current directory: E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3884 E:\Accelerator\CNN_Accelerator\CNN_Accelerator_Vivado_project\Accelerator.xpr
+# Log file: E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/vivado.log
+# Journal file: E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project\vivado.jou
 # Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
 #-----------------------------------------------------------
 start_gui
-open_project E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.xpr
-reset_project
+open_project E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.xpr
 update_compile_order -fileset sources_1
-write_project_tcl -all_properties -use_bd_files {E:/Accelerator/CNN_Accelerator_Vivado_project/Accelerator.tcl}
+generate_target Simulation [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+generate_target all [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_result/fifo_result.xci]
+export_ip_user_files -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_result/fifo_result.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_result/fifo_result.xci] -directory E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset fifo_result
+set_property top fifo_result [get_fileset fifo_result]
+move_files -fileset [get_fileset fifo_result] [get_files -of_objects [get_fileset sources_1] E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_result/fifo_result.xci]
+generate_target all [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_weightfc/fifo_weightfc.xci]
+export_ip_user_files -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_weightfc/fifo_weightfc.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_weightfc/fifo_weightfc.xci] -directory E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset fifo_weightfc
+set_property top fifo_weightfc [get_fileset fifo_weightfc]
+move_files -fileset [get_fileset fifo_weightfc] [get_files -of_objects [get_fileset sources_1] E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_weightfc/fifo_weightfc.xci]
+generate_target all [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_weight/fifo_weight.xci]
+export_ip_user_files -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_weight/fifo_weight.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_weight/fifo_weight.xci] -directory E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/picture_fifo_0/picture_fifo_0.xci]
+export_ip_user_files -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/picture_fifo_0/picture_fifo_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/picture_fifo_0/picture_fifo_0.xci] -directory E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_act/fifo_act.xci]
+export_ip_user_files -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_act/fifo_act.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_act/fifo_act.xci] -directory E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset fifo_act
+set_property top fifo_act [get_fileset fifo_act]
+move_files -fileset [get_fileset fifo_act] [get_files -of_objects [get_fileset sources_1] E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/fifo_act/fifo_act.xci]
+launch_run {fifo_result_synth_1 fifo_weightfc_synth_1 fifo_weight_synth_1 fifo_act_synth_1}
+wait_on_run fifo_result_synth_1
+
+wait_on_run fifo_result_synth_1
+wait_on_run fifo_weightfc_synth_1
+
+wait_on_run fifo_result_synth_1
+wait_on_run fifo_weightfc_synth_1
+wait_on_run fifo_weight_synth_1
+
+wait_on_run fifo_result_synth_1
+wait_on_run fifo_weightfc_synth_1
+wait_on_run fifo_weight_synth_1
+wait_on_run fifo_act_synth_1
+
+launch_simulation
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/behav/window_tb/window_tb_behav.wcfg
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/behav/cnn/CNN_Accelerator_tb_behav.wcfg
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/behav/conv/conv_tb_behav.wcfg
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/behav/window_tb/windows_data_axi_test_behav.wcfg
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/CNN_System_tb/CNN_Accelerator_system_Test_behav.wcfg
+source CNN_Accelerator_system_Test.tcl
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/CNN_Accelerator_system_Test/fifo_result_1/s_axis_aresetn}} {{/CNN_Accelerator_system_Test/fifo_result_1/s_axis_aclk}} {{/CNN_Accelerator_system_Test/fifo_result_1/s_axis_tvalid}} {{/CNN_Accelerator_system_Test/fifo_result_1/s_axis_tready}} {{/CNN_Accelerator_system_Test/fifo_result_1/s_axis_tdata}} {{/CNN_Accelerator_system_Test/fifo_result_1/s_axis_tstrb}} {{/CNN_Accelerator_system_Test/fifo_result_1/s_axis_tkeep}} {{/CNN_Accelerator_system_Test/fifo_result_1/s_axis_tlast}} {{/CNN_Accelerator_system_Test/fifo_result_1/m_axis_tvalid}} {{/CNN_Accelerator_system_Test/fifo_result_1/m_axis_tready}} {{/CNN_Accelerator_system_Test/fifo_result_1/m_axis_tdata}} {{/CNN_Accelerator_system_Test/fifo_result_1/m_axis_tstrb}} {{/CNN_Accelerator_system_Test/fifo_result_1/m_axis_tkeep}} {{/CNN_Accelerator_system_Test/fifo_result_1/m_axis_tlast}} 
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/new/Accelerator_tb.v w ]
+add_files -fileset sim_1 E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/new/Accelerator_tb.v
+update_compile_order -fileset sim_1
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+create_bd_design "CNN_Module"
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+update_compile_order -fileset sources_1
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/Accelerator_block_design/Accelerator_block_design.bd}
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/CNN_Module/CNN_Module.bd}
+current_bd_design Accelerator_block_design
+set tmpCopyObjs [concat  [get_bd_cells {CNN_ACCELERATOR/RESULT_DATA_FIFO1 CNN_ACCELERATOR/WEIGHT_FULLCON_FIFO CNN_ACCELERATOR/PICTURE_DATA_FIFO CNN_ACCELERATOR/WEIGHT_CONV_ACT_FULLCON_FIFO CNN_ACCELERATOR/Windows_Data_Convert_0 CNN_ACCELERATOR/CNN_Control_1 CNN_ACCELERATOR/INACT_DATA_FIFO}] [get_bd_intf_pins {CNN_ACCELERATOR/AXI4_LITE_Control_Accelerator CNN_ACCELERATOR/AXI4_LITE_Control_Window CNN_ACCELERATOR/M_AXIS CNN_ACCELERATOR/S_AXIS2 CNN_ACCELERATOR/S_AXIS1 CNN_ACCELERATOR/S_AXIS}] [get_bd_pins {CNN_ACCELERATOR/s_axis_aresetn CNN_ACCELERATOR/cnn_done CNN_ACCELERATOR/s_axis_aclk CNN_ACCELERATOR/cnn_cnt_0}] [get_bd_intf_nets {CNN_ACCELERATOR/Windows_Data_Convert_0_m00_axis CNN_ACCELERATOR/INACT_DATA_FIFO_M_AXIS CNN_ACCELERATOR/Conn1 CNN_ACCELERATOR/Conn2 CNN_ACCELERATOR/WEIGHT_FULLCON_FIFO_M_AXIS CNN_ACCELERATOR/PICTURE_DATA_FIFO_M_AXIS CNN_ACCELERATOR/Conn4 CNN_ACCELERATOR/Conn5 CNN_ACCELERATOR/WEIGHT_CONV_ACT_FULLCON_FIFO_M_AXIS CNN_ACCELERATOR/Conn6 CNN_ACCELERATOR/s00_axi_1 CNN_ACCELERATOR/CNN_Control_0_result}] [get_bd_nets {CNN_ACCELERATOR/CNN_Control_1_cnn_done CNN_ACCELERATOR/CNN_Control_1_cnn_cnt CNN_ACCELERATOR/s_axis_aclk_1 CNN_ACCELERATOR/s_axis_aresetn_1}]]
+current_bd_design CNN_Module
+copy_bd_objs -from_design Accelerator_block_design / $tmpCopyObjs
+regenerate_bd_layout
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/CNN_Module/CNN_Module.bd}
+validate_bd_design
+make_wrapper -files [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/CNN_Module/CNN_Module.bd] -top
+add_files -norecurse e:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.gen/sources_1/bd/CNN_Module/hdl/CNN_Module_wrapper.v
+update_compile_order -fileset sources_1
+open_bd_design {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/CNN_Module/CNN_Module.bd}
+startgroup
+set_property -dict [list CONFIG.SCALE_RIGHT {0}] [get_bd_cells CNN_Control_1]
+endgroup
+validate_bd_design
+regenerate_bd_layout
+make_wrapper -files [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/CNN_Module/CNN_Module.bd] -top
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/new/CNN_Module_tb.v w ]
+add_files -fileset sim_1 E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/new/CNN_Module_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CNN_Module_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+generate_target Simulation [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/CNN_Module/CNN_Module.bd]
+export_ip_user_files -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/CNN_Module/CNN_Module.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/bd/CNN_Module/CNN_Module.bd] -directory E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+close_sim
+generate_target Simulation [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+launch_simulation
+generate_target all [get_files  E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+catch { config_ip_cache -export [get_ips -all div_gen_0] }
+export_ip_user_files -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci] -no_script -sync -force -quiet
+launch_runs div_gen_0_synth_1 -jobs 8
+wait_on_run div_gen_0_synth_1
+export_simulation -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci] -directory E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+import_files
+generate_target Simulation [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+launch_simulation
+delete_ip_run [get_files -of_objects [get_fileset div_gen_0] E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+set_property generate_synth_checkpoint false [get_files  E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+generate_target all [get_files  E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+export_ip_user_files -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci] -directory E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+launch_simulation
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/behav/window_tb/window_tb_behav.wcfg
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/behav/cnn/CNN_Accelerator_tb_behav.wcfg
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/behav/conv/conv_tb_behav.wcfg
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/behav/window_tb/windows_data_axi_test_behav.wcfg
+open_wave_config E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/imports/CNN_System_tb/CNN_Accelerator_system_Test_behav.wcfg
+source CNN_Module_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse -scan_for_includes {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.sim/sim_1/sim_txt/input_fcweight_data.txt E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.sim/sim_1/sim_txt/input_feature_data.txt E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.sim/sim_1/sim_txt/input_weight_data.txt}
+import_files -fileset sim_1 -norecurse {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.sim/sim_1/sim_txt/input_fcweight_data.txt E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.sim/sim_1/sim_txt/input_feature_data.txt E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.sim/sim_1/sim_txt/input_weight_data.txt}
+relaunch_sim
+relaunch_sim
+run all
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Module_tb/uut/M_AXIS_tlast}} 
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Module_tb/uut/AXI4_LITE_Control_Window_rdata}} 
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Module_tb/uut/M_AXIS_tdata}} {{/CNN_Module_tb/uut/M_AXIS_tlast}} {{/CNN_Module_tb/uut/M_AXIS_tready}} {{/CNN_Module_tb/uut/M_AXIS_tvalid}} {{/CNN_Module_tb/uut/S_AXIS1_tdata}} {{/CNN_Module_tb/uut/S_AXIS1_tkeep}} {{/CNN_Module_tb/uut/S_AXIS1_tlast}} {{/CNN_Module_tb/uut/S_AXIS1_tready}} {{/CNN_Module_tb/uut/S_AXIS1_tstrb}} {{/CNN_Module_tb/uut/S_AXIS1_tvalid}} {{/CNN_Module_tb/uut/S_AXIS2_tdata}} {{/CNN_Module_tb/uut/S_AXIS2_tkeep}} {{/CNN_Module_tb/uut/S_AXIS2_tlast}} {{/CNN_Module_tb/uut/S_AXIS2_tready}} {{/CNN_Module_tb/uut/S_AXIS2_tvalid}} {{/CNN_Module_tb/uut/S_AXIS_tdata}} {{/CNN_Module_tb/uut/S_AXIS_tkeep}} {{/CNN_Module_tb/uut/S_AXIS_tlast}} {{/CNN_Module_tb/uut/S_AXIS_tready}} {{/CNN_Module_tb/uut/S_AXIS_tstrb}} {{/CNN_Module_tb/uut/S_AXIS_tvalid}} {{/CNN_Module_tb/uut/cnn_cnt_0}} {{/CNN_Module_tb/uut/cnn_done}} {{/CNN_Module_tb/uut/s_axis_aclk}} {{/CNN_Module_tb/uut/s_axis_aresetn}} 
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+relaunch_sim
+run all
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/m00_axis}} {{/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s00_axis}} 
+relaunch_sim
+run all
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s01_axi}} 
+run all
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s01_axi_wdata}} 
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Module_tb/uut/CNN_Module_i/Windows_Data_Convert_0/s01_axi_araddr}} 
+relaunch_sim
+run all
+current_wave_config {CNN_Accelerator_system_Test_behav.wcfg}
+add_wave {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_araddr}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_arprot}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_arvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_arready}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_awaddr}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_awprot}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_awvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_awready}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_bready}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_bresp}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_bvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_rdata}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_rready}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_rresp}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_rvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_wdata}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_wready}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_wstrb}} {{/CNN_Module_tb/AXI4_LITE_Control_Accelerator_wvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_araddr}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_arprot}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_arvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_arready}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_awaddr}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_awprot}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_awvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_awready}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_bready}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_bresp}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_bvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_rdata}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_rready}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_rresp}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_rvalid}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_wdata}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_wready}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_wstrb}} {{/CNN_Module_tb/AXI4_LITE_Control_Window_wvalid}} 
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+run all
+add_bp {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/new/CNN_Module_tb.v} 197
+add_bp {E:/Accelerator/CNN_Accelerator/CNN_Accelerator_Vivado_project/Accelerator.srcs/sim_1/new/CNN_Module_tb.v} 198
+relaunch_sim

@@ -1,0 +1,36 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Accelerator.gen/sources_1/bd/CNN_Module/ipshared/8713/hdl" --include "F:/Xilinx/Vivado/2022.1/data/xilinx_vip/include" \
+"../../../../Accelerator.srcs/sources_1/new/CNN_Accelerator.v" \
+"../../../../Accelerator.srcs/sources_1/new/CNN_Control_S00_AXI.v" \
+"../../../../Accelerator.srcs/sources_1/new/Conv_Array_Control.v" \
+"../../../../Accelerator.srcs/sources_1/new/Conv_PE.v" \
+"../../../../Accelerator.srcs/sources_1/new/Conv_SystolicArray.v" \
+"../../../../Accelerator.srcs/sources_1/new/FullCon_PE.v" \
+"../../../../Accelerator.srcs/sources_1/new/FullCon_PE_Control.v" \
+"../../../../Accelerator.srcs/sources_1/new/Pool_PE.v" \
+"../../../../Accelerator.srcs/sources_1/new/Pooling_Array_Control.v" \
+"../../../../Accelerator.srcs/sources_1/new/Pooling_SystolicArray.v" \
+"../../../../Accelerator.srcs/sources_1/new/Relu.v" \
+"../../../../Accelerator.srcs/sources_1/new/Relu_Array_Control.v" \
+"../../../../Accelerator.srcs/sources_1/new/CNN_Control.v" \
+"../../../../Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v" \
+"../../../../Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v" \
+"../../../../Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v" \
+"../../../../Accelerator.srcs/sources_1/imports/window_ip/windows.v" \
+"../../../../Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0.v" \
+"../../../../Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_CNN_Control_1_0/sim/CNN_Module_CNN_Control_1_0.v" \
+"../../../../Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_INACT_DATA_FIFO_0/sim/CNN_Module_INACT_DATA_FIFO_0.v" \
+"../../../../Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_PICTURE_DATA_FIFO_0/sim/CNN_Module_PICTURE_DATA_FIFO_0.v" \
+"../../../../Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_RESULT_DATA_FIFO1_0/sim/CNN_Module_RESULT_DATA_FIFO1_0.v" \
+"../../../../Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_WEIGHT_CONV_ACT_FULLCON_FIFO_0/sim/CNN_Module_WEIGHT_CONV_ACT_FULLCON_FIFO_0.v" \
+"../../../../Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_WEIGHT_FULLCON_FIFO_0/sim/CNN_Module_WEIGHT_FULLCON_FIFO_0.v" \
+"../../../../Accelerator.ip_user_files/bd/CNN_Module/ip/CNN_Module_Windows_Data_Convert_0_0/sim/CNN_Module_Windows_Data_Convert_0_0.v" \
+"../../../../Accelerator.ip_user_files/bd/CNN_Module/sim/CNN_Module.v" \
+"../../../../Accelerator.gen/sources_1/bd/CNN_Module/hdl/CNN_Module_wrapper.v" \
+"../../../../Accelerator.srcs/sim_1/new/CNN_Module_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -53,7 +53,6 @@ reg [7:0] wait_pipeline_acttransfer_counter;//等待脉动阵列运行完毕
 reg [7:0] wait_pipeline_outtransfer_counter;
 reg  reg_inwtValid;
 reg          reg_Sum_valid ;
-reg          reg_Sum_valid1 ;
 wire [CONV_KERNEL_NUM*DATA_WIDTH-1  :0]                  wire_inWeight;
 reg finish;
 wire [RESULT_DATA_WIDTH-1:0] Wait_Longer_side;
@@ -246,10 +245,8 @@ end
 always @(posedge clk ) begin
   if (!rstn||refresh) begin
     Sum_valid<=0;
-    reg_Sum_valid1<=0;
   end else begin
      Sum_valid<=reg_Sum_valid;
-//     reg_Sum_valid1<=reg_Sum_valid;
   end
 end
 
